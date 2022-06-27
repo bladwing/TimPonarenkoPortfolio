@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'BPG Glaho';
+  src: url('./resourse/fonts/bpg_glaho.ttf');
+  }
+.Container {
+ text-align: center;
+ font-family: BPG Glaho;
+
+}
+.PhotoAndHeader {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  margin-top: 3%;
+
+
+}
+
+.Content {
+  text-align: center;
+}
+.ProfilePhoto {
+  width: 200px;
+  border-radius: 60%;
+}
+
+.Menu {
+  display: flex;
+  justify-content: center;
+ 
+}
+.Menu a:hover {
+  color: grey;
+
+}
+
+hr {
+  border: 1px solid skyblue;
+  width: 100%;
+
+}
+.MenuItem {
+  text-decoration: none;
+  font-family: BPG Glaho;
+  color: black;
+  padding: 20px;
+}
