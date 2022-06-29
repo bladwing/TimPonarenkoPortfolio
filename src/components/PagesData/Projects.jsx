@@ -1,7 +1,8 @@
 import React from "react";
-import ToDo from "../resourse/todo.png";
-import Popup from "../resourse/popup.png"
-import ToBeContimue from "../resourse/BeContinued.jpg"
+import './project.scss'
+import ToDo from "../../resourse/todo.png"
+import Popup from "../../resourse/popup.png"
+import ToBeContimue from "../../resourse/BeContinued.jpg"
 
 export default function Projects() {
   return (

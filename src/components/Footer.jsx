@@ -1,14 +1,14 @@
 import React from "react";
+import Clock from "./widgets/Clock";
 
+export default function Footer() {
+  return (
+    <div className="footer">
+      <hr />
 
-export default function Footer () {
+      <Clock />
 
-    return (
-        <div className="footer">
-            <hr />
-            this is footer
-            <hr />
-        </div>
-    )
-
+      <hr />
+    </div>
+  );
 }

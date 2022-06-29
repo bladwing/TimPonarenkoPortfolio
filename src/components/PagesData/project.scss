@@ -1,0 +1,32 @@
+
+.ProjectsContainer {
+    display: flex;
+    text-align: center;
+    margin: 2% auto 0 auto;
+    width: 80%;
+  }
+  .ProjectBlocks {
+    margin: 0 auto 0 auto;
+    width: 16%;
+    margin-left: 1%;
+    border-radius: 20px;
+  
+  }
+  .ProjectBlocks:hover {
+   opacity: 70%;
+  }
+  
+  .ProjectBlocks > a {
+    text-decoration: none;
+    color: black;
+  }
+  .ProjectBlocks > a:hover {
+    color: grey;
+  }
+  
+  .ProjectBlocks > a img {
+    text-decoration: none;
+    width: 100%;
+    border-radius: 20px;
+  }
+  

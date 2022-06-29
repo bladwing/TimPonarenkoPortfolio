@@ -1,6 +1,9 @@
 import React from "react";
 import { MainMenu, SubMenu } from "./Menu";
-import Projects from "./Projects";
+import Projects from "./PagesData/Projects";
+import MusicPage from "./PagesData/MusicPage";
+import Film from "./PagesData/Film";
+
 
 import Tim from "../resourse/Tim.jpg";
 import Georgia from "../resourse/georgia.png";
@@ -8,6 +11,7 @@ import ProjectImg from "../resourse/Project.png";
 import HobbyImg from "../resourse/hobby.jpg";
 import MusicImg from "../resourse/music.png";
 import FilmsImg from "../resourse/films.jpg";
+import ExperienceImg from "../resourse/experience.png";
 
 export function Main() {
   return (
@@ -49,6 +53,24 @@ export function Project() {
   );
 }
 
+export function Experience() {
+  return (
+    <div>
+      <div className="PhotoAndHeader">
+        <img className="ProfilePhoto" src={ExperienceImg} alt="profilePhoto" />
+        <h1>გამოცდილება</h1>
+      </div>
+
+      <MainMenu />
+      <div className="Content">
+       
+      </div>
+    </div>
+  );
+}
+
+
+
 export function Hobby() {
   return (
     <div>
@@ -71,9 +93,12 @@ export function Music() {
       <div className="PhotoAndHeader">
         <img className="ProfilePhoto" src={MusicImg} alt="profilePhoto" />
         <h1>მუსიკა</h1>
+       
       </div>
 
       <MainMenu />
+      <SubMenu />
+   <MusicPage/>
     </div>
   );
 }
@@ -86,6 +111,8 @@ export function Films() {
       </div>
 
       <MainMenu />
+      <SubMenu />
+      <Film/>
     </div>
   );
 }
