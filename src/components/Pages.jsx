@@ -1,8 +1,8 @@
 import React from "react";
 import { MainMenu, SubMenu } from "./Menu";
-import Projects from "./PagesData/Projects";
-import MusicPage from "./PagesData/MusicPage";
-import Film from "./PagesData/Film";
+import Projects from "./Pages/Projects";
+import MusicPage from "./Pages/MusicPage";
+import Film from "./Pages/Film";
 
 
 import Tim from "../resourse/Tim.jpg";

@@ -1,44 +1,46 @@
 import React from "react";
-import './project.scss'
-import ToDo from "../../resourse/todo.png"
-import Popup from "../../resourse/popup.png"
-import ToBeContimue from "../../resourse/BeContinued.jpg"
+import "./project.scss";
+import ToDo from "../../resourse/todo.png";
+import Popup from "../../resourse/popup.png";
+import ToBeContimue from "../../resourse/BeContinued.jpg";
+import Quiz from "../../resourse/quiz.jpg";
 
 export default function Projects() {
   return (
     <div className="ProjectsContainer">
       <div className="ProjectBlocks">
         <a
-          href="https://github.com/bladwing/ol-academy-ponarenko-react-todo/"
-          target="_blank" rel="noreferrer"
+          href="https://ponarenkotodo.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
         >
           <img src={ToDo} alt="todo_project" />
           <h3>To-Do აპლიკაცია</h3>
         </a>
       </div>
-      
+
       <div className="ProjectBlocks">
         <a
           href="https://github.com/bladwing/ol-academy-popup-with-handling-outside-click/"
-          target="_blank" rel="noreferrer"
+          target="_blank"
+          rel="noreferrer"
         >
           <img src={Popup} alt="popup" />
           <h3>Popup მენიუ</h3>
         </a>
       </div>
       <div className="ProjectBlocks">
-        <a href="!#" rel="noreferrer">
-          <img src={ToBeContimue} alt="popup" />
-          <h3>...</h3>
-          </a>
+        <a href="https://quizolacademy.netlify.app/" rel="noreferrer">
+          <img src={Quiz} alt="quiz" />
+          <h3>Quiz - ვიქტორინა</h3>
+        </a>
       </div>
       <div className="ProjectBlocks">
         <a href="!#" rel="noreferrer">
-        <img src={ToBeContimue} alt="popup" />
-        <h3>...</h3>
+          <img src={ToBeContimue} alt="popup" />
+          <h3>...</h3>
         </a>
-    </div>
-     
+      </div>
     </div>
   );
 }
