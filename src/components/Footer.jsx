@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <div className="footer">
       <hr />
-
+რეალური დრო
       <Clock />
 
       <hr />
