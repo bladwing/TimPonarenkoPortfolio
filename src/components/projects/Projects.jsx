@@ -1,9 +1,9 @@
 import React from "react";
 import "./project.scss";
-import ToDo from "../../resourse/todo.png";
-import Popup from "../../resourse/popup.png";
-import ToBeContimue from "../../resourse/BeContinued.jpg";
-import Quiz from "../../resourse/quiz.jpg";
+import ToDo from "../../assets/todo.png";
+import Popup from "../../assets/popup.png";
+import ToBeContimue from "../../assets/BeContinued.jpg";
+import Quiz from "../../assets/quiz.jpg";
 
 export default function Projects() {
   return (
