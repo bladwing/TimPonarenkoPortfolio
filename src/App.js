@@ -1,14 +1,16 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { Main, Project, Experience, Hobby, Music, Films } from "./components/Pages";
+import { Project, Experience, Hobby, Music, Films } from "./components/Pages";
+import Main from "./components/Main/Main"
 import Footer from "./components/Footer";
 import "./App.scss";
+import "./effects.scss";
 
 const App = () => {
   return (
-    <div>
+    <div className="MainPage rainbow">
     <Router>
-      <hr />
+   
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/project" element={<Project />} />
