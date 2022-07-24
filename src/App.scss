@@ -1,3 +1,4 @@
+@import "./scss/colors";
 @font-face {
   font-family: 'BPG Glaho';
   src: url('./fonts/bpg_glaho.ttf');
@@ -5,8 +6,15 @@
 .Container {
  text-align: center;
  font-family: BPG Glaho;
-
-
+}
+.MainPage {
+  width: 50%;
+  border-radius: 16px;
+  margin: 3% auto;
+}
+.Container {
+  text-align: center;
+  font-family: BPG Glaho;
 }
 .PhotoAndHeader {
   width: 100%;
@@ -22,30 +30,19 @@
 .ProfilePhoto {
   width: 200px;
   border-radius: 60%;
+  margin-top: 3%;
 }
-
-.geoFlag {
-  width: 20px;
-}
-
 .Menu {
   display: flex;
   justify-content: center;
   font-size: 22px;
   margin-bottom: 2%;
- 
 }
 .Menu a:hover {
   color: grey;
   text-decoration: underline;
-
 }
 
-hr {
-  border: 1px solid skyblue;
-  width: 70%;
-
-}
 .MenuItem {
   text-decoration: none;
   font-family: BPG Glaho;

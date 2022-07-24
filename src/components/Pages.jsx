@@ -13,29 +13,7 @@ import MusicImg from "../assets/music.png";
 import FilmsImg from "../assets/films.jpg";
 import ExperienceImg from "../assets/experience.png";
 
-export function Main() {
-  return (
-    <div>
-      <div className="PhotoAndHeader">
-        <img className="ProfilePhoto" src={Tim} alt="profilePhoto" />
 
-        <h1 className="Header">Tim Ponarenko</h1>
-      </div>
-
-      <MainMenu />
-
-      <div className="Content">
-        <div> Born : 1991</div>
-        <div>
-          {" "}
-          Country : Georgia{" "}
-          <img src={Georgia} className="geoFlag" alt="georgia_flag" />
-        </div>
-        <div>აქ იქნება ინფორმაცია...</div>
-      </div>
-    </div>
-  );
-}
 
 export function Project() {
   return (
@@ -62,14 +40,10 @@ export function Experience() {
       </div>
 
       <MainMenu />
-      <div className="Content">
-       
-      </div>
+      <div className="Content"></div>
     </div>
   );
 }
-
-
 
 export function Hobby() {
   return (
@@ -93,12 +67,11 @@ export function Music() {
       <div className="PhotoAndHeader">
         <img className="ProfilePhoto" src={MusicImg} alt="profilePhoto" />
         <h1>მუსიკა</h1>
-       
       </div>
 
       <MainMenu />
       <SubMenu />
-   <MusicPage/>
+      <MusicPage />
     </div>
   );
 }
@@ -112,7 +85,7 @@ export function Films() {
 
       <MainMenu />
       <SubMenu />
-      <Film/>
+      <Film />
     </div>
   );
 }
