@@ -4,9 +4,6 @@ import Projects from "./projects/Projects";
 import MusicPage from "./hobby/Music";
 import Film from "./hobby/Film";
 
-
-import Tim from "../assets/Tim.jpg";
-import Georgia from "../assets/georgia.png";
 import ProjectImg from "../assets/Project.png";
 import HobbyImg from "../assets/hobby.jpg";
 import MusicImg from "../assets/music.png";

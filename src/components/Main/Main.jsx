@@ -1,8 +1,8 @@
 import { MainMenu } from "../Menu";
 import "./main.scss";
 import "./NameEffect.scss";
-import Tim from "../../resourse/Tim.jpg";
-import Georgia from "../../resourse/georgia.png";
+import Tim from "../../assets/Tim.jpg";
+import Georgia from "../../assets/georgia.png";
 
 export default function Main() {
   return (
