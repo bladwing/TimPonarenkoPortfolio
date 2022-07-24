@@ -1,28 +1,26 @@
 @import "./scss/colors";
 @font-face {
-  font-family: 'BPG Glaho';
-  src: url('./fonts/bpg_glaho.ttf');
-  }
-.Container {
- text-align: center;
- font-family: BPG Glaho;
-}
-.MainPage {
-  width: 50%;
-  border-radius: 16px;
-  margin: 3% auto;
+  font-family: "BPG Glaho";
+  src: url("./fonts/bpg_glaho.ttf");
 }
 .Container {
   text-align: center;
   font-family: BPG Glaho;
 }
+.MainPage {
+  width: 50%;
+  border-radius: 16px;
+  margin: 3% auto;
+  background-color: #fff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
 .PhotoAndHeader {
   width: 100%;
   height: 300px;
   text-align: center;
   margin-top: 3%;
 }
-
 
 .ProfilePhoto {
   width: 200px;
@@ -77,5 +75,5 @@
 
 .Title:hover {
   color: grey;
-  cursor:grab
+  cursor: grab;
 }

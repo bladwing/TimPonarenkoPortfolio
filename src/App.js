@@ -8,7 +8,8 @@ import "./scss/effects.scss";
 
 const App = () => {
   return (
-    <div className="MainPage rainbow">
+    <div className="MainPage">
+      
       <Router>
         <Routes>
           <Route path="/" element={<Main />} />
@@ -20,7 +21,8 @@ const App = () => {
         </Routes>
       </Router>
       <Footer />
-    </div>
+      </div>
+ 
   );
 };
 

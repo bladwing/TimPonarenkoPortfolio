@@ -25,16 +25,15 @@
       top: -50%;
       width: 200%;
       height: 200%;
-      background-color: #399953;
       background-repeat: no-repeat;
       background-size: 50% 50%, 50% 50%;
       background-position: 0 0, 100% 0, 100% 100%, 0 100%;
       background-image: 
-      linear-gradient($Green, $Green), 
-      linear-gradient($Orange, $Orange), 
-      linear-gradient($Red, $Red), 
-      linear-gradient($Azure, $Azure);
-      animation: rotate 7s linear infinite;
+      linear-gradient($borderColorSecond, $borderColorSecond),
+      linear-gradient($borderColorFirst, $borderColorFirst), 
+      linear-gradient($borderColorThird, $borderColorThird), 
+      linear-gradient($borderColorFour, $borderColorFour);
+      animation: rotate 1s linear infinite;
     }
     
     &::after {
