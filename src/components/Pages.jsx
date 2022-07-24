@@ -19,7 +19,9 @@ export function Project() {
 
       <MainMenu />
       <div className="Content">
+      <h1  style={{textAlign: "center", marginBottom: "10%"}}>Under Constraction</h1>
         <Projects />
+        
       </div>
     </div>
   );

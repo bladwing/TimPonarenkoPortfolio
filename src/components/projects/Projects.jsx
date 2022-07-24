@@ -1,49 +1,21 @@
 import React from "react";
+import ProjectBase from "../../utils/projects.json";
 import "./project.scss";
-// import ToDo from "../../assets/todo.png";
-// import Popup from "../../assets/popup.png";
-// import ToBeContimue from "../../assets/BeContinued.jpg";
-// import Quiz from "../../assets/quiz.jpg";
 
 export default function Projects() {
   return (
     <div className="ProjectsContainer">
-
-
-      {/* <div className="ProjectBlocks">
-        <a
-          href="https://ponarenkotodo.netlify.app/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={ToDo} alt="todo_project" />
-          <h3>To-Do აპლიკაცია</h3>
-        </a>
+     
+        {ProjectBase.map((projects, key) => {
+          return (
+            <div key={key} className="ProjectCard">
+              <img src={projects.imageLink} alt={projects.alt} />
+              <br />
+              <a href={projects.id}>{projects.ProjectName}</a>
+            </div>
+          );
+        })}
       </div>
 
-      <div className="ProjectBlocks">
-        <a
-          href="https://github.com/bladwing/ol-academy-popup-with-handling-outside-click/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={Popup} alt="popup" />
-          <h3>Popup მენიუ</h3>
-        </a>
-      </div>
-      
-      <div className="ProjectBlocks">
-        <a href="https://quizolacademy.netlify.app/" rel="noreferrer">
-          <img src={Quiz} alt="quiz" />
-          <h3>Quiz - ვიქტორინა</h3>
-        </a>
-      </div>
-      <div className="ProjectBlocks">
-        <a href="!#" rel="noreferrer">
-          <img src={ToBeContimue} alt="popup" />
-          <h3>...</h3>
-        </a>
-      </div> */}
-    </div>
   );
 }
