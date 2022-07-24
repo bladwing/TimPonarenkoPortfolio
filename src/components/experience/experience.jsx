@@ -1,6 +1,7 @@
 import ExpBase from "../../utils/experience.json";
 import ExperienceImg from "../../assets/experience.png";
 import { MainMenu } from "../Menu";
+import "./exp.scss"
 
 export default function Experience() {
   return (

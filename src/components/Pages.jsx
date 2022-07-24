@@ -24,7 +24,6 @@ export function Project() {
     </div>
   );
 }
-
 export function Hobby() {
   return (
     <div>
@@ -35,12 +34,10 @@ export function Hobby() {
 
       <MainMenu />
       <SubMenu />
-      <div className="Content"></div>
       <div></div>
     </div>
   );
 }
-
 export function Music() {
   return (
     <div>

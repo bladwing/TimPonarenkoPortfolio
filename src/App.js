@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Project, Hobby, Music, Films } from "./components/Pages";
 import Experience from "./components/experience/experience";
-import Main from "./components/Main/Main";
+import Main from "./components/main/MainPage";
 import Footer from "./components/Footer";
 import "./App.scss";
 import "./scss/effects.scss";

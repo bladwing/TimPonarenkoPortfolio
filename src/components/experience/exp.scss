@@ -1,0 +1,26 @@
+.experienceTitle {
+    text-align: center;
+  }
+  .experienceCard {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 90%;
+    flex-wrap: wrap;
+  }
+  
+  .Card {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+   
+    border-radius: 10px;
+    margin-bottom: 10%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  }
+  .Card:hover {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  }
+  .experienceLogo {
+    width: 100px;
+  }
