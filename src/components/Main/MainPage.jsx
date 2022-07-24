@@ -1,6 +1,6 @@
 import React from "react";
 import { MainMenu } from "../Menu";
-import infokData from "../../utils/Information.json";
+import infoData from "../../utils/Information.json";
 import educationData from "../../utils/educaton.json";
 import "./main.scss";
 import "./NameEffect.scss";
@@ -19,7 +19,7 @@ export default function Main() {
       <MainMenu />
 
       <div className="informationCard">
-        {infokData.map((id, key) => {
+        {infoData.map((id, key) => {
           return (
             <div key={key}>
               <ul>
