@@ -1,11 +1,44 @@
+@import "../../scss/colors";
 
+.ProfilePhotoTim {
+  width: 200px;
+  border-radius: 2%;
+  margin-top: 3%;
+}
 
-  .ProfilePhotoTim {
-    width: 200px;
-    border-radius: 2%;
-    margin-top: 3%;
-  }
-  
-  .geoFlag {
-    width: 20px;
-  }
+.geoFlag {
+  width: 20px;
+}
+.Content {
+  font-size: 20px;
+  border: 1px solid black;
+}
+.informationCard {
+  width: 40%;
+  margin-bottom: 10%;
+}
+.experienceTitle {
+  text-align: center;
+}
+.experienceCard {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+
+  flex-wrap: wrap;
+}
+
+.Card {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 10%;
+}
+.Card:hover {
+  border: 1px solid $Azure;
+}
+.experienceLogo {
+  width: 150px;
+}
