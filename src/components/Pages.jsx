@@ -1,14 +1,17 @@
 import React from "react";
 import { MainMenu, SubMenu } from "./Menu";
-import Projects from "./Pages/Projects";
-import MusicPage from "./Pages/MusicPage";
-import Film from "./Pages/Film";
+import Projects from "./projects/Projects";
+import MusicPage from "./hobby/Music";
+import Film from "./hobby/Film";
 
-import ProjectImg from "../resourse/Project.png";
-import HobbyImg from "../resourse/hobby.jpg";
-import MusicImg from "../resourse/music.png";
-import FilmsImg from "../resourse/films.jpg";
-import ExperienceImg from "../resourse/experience.png";
+
+import Tim from "../assets/Tim.jpg";
+import Georgia from "../assets/georgia.png";
+import ProjectImg from "../assets/Project.png";
+import HobbyImg from "../assets/hobby.jpg";
+import MusicImg from "../assets/music.png";
+import FilmsImg from "../assets/films.jpg";
+import ExperienceImg from "../assets/experience.png";
 
 
 

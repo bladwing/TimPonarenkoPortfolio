@@ -1,9 +1,12 @@
 @import "./scss/colors";
 @font-face {
-  font-family: "BPG Glaho";
-  src: url("./resourse/fonts/bpg_glaho.ttf");
+  font-family: 'BPG Glaho';
+  src: url('./fonts/bpg_glaho.ttf');
+  }
+.Container {
+ text-align: center;
+ font-family: BPG Glaho;
 }
-
 .MainPage {
   width: 50%;
   border-radius: 16px;
@@ -52,4 +55,30 @@
   margin-top: 5%;
   width: 50%;
   margin: 10% auto;
+}
+
+.Container {
+  display: flex;
+  text-align: center;
+  margin: 2% auto 0 auto;
+  width: 80%;
+}
+.Block {
+  margin: 0 auto 0 auto;
+  width: 20%;
+  margin-left: 1%;
+  border-radius: 20px;
+}
+
+.Block:hover {
+  border: 1px solid black;
+}
+.Block img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.Title:hover {
+  color: grey;
+  cursor:grab
 }

@@ -1,10 +1,9 @@
 import React from "react";
-import "./style.scss";
 
-import Matrix from "../../resourse/Films/matrix.jpg"
-import BLADE from "../../resourse/Films/blade.jpg"
-import IronMan from "../../resourse/Films/ironman.jpg"
-import Gentlemen from "../../resourse/Films/thegentlemen.jpg"
+import Matrix from "../../assets/Films/matrix.jpg"
+import BLADE from "../../assets/Films/blade.jpg"
+import IronMan from "../../assets/Films/ironman.jpg"
+import Gentlemen from "../../assets/Films/thegentlemen.jpg"
 
 export default function Film() {
     return (

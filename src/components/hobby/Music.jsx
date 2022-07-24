@@ -1,9 +1,8 @@
 import React from "react";
-import "./style.scss";
-import LP from "../../resourse/MusicBand/LP.jpg";
-import PR from "../../resourse/MusicBand/PR.jpg";
-import SLIPKNOT from "../../resourse/MusicBand/SLIPKNOT.jpg"
-import King from "../../resourse/MusicBand/king810.jpg"
+import LP from "../../assets/MusicBand/LP.jpg";
+import PR from "../../assets/MusicBand/PR.jpg";
+import SLIPKNOT from "../../assets/MusicBand/SLIPKNOT.jpg"
+import King from "../../assets/MusicBand/king810.jpg"
 
 export default function MusicPage() {
   return (
