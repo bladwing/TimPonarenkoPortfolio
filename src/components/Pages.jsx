@@ -8,9 +8,6 @@ import ProjectImg from "../assets/Project.png";
 import HobbyImg from "../assets/hobby.jpg";
 import MusicImg from "../assets/music.png";
 import FilmsImg from "../assets/films.jpg";
-import ExperienceImg from "../assets/experience.png";
-
-
 
 export function Project() {
   return (
@@ -24,20 +21,6 @@ export function Project() {
       <div className="Content">
         <Projects />
       </div>
-    </div>
-  );
-}
-
-export function Experience() {
-  return (
-    <div>
-      <div className="PhotoAndHeader">
-        <img className="ProfilePhoto" src={ExperienceImg} alt="profilePhoto" />
-        <h1>გამოცდილება</h1>
-      </div>
-
-      <MainMenu />
-      <div className="Content"></div>
     </div>
   );
 }

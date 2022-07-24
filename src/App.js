@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { Project, Experience, Hobby, Music, Films } from "./components/Pages";
+import { Project, Hobby, Music, Films } from "./components/Pages";
+import Experience from "./components/experience/experience";
 import Main from "./components/Main/Main";
 import Footer from "./components/Footer";
 import "./App.scss";

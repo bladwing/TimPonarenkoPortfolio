@@ -4,7 +4,7 @@ import "./main.scss";
 import "./NameEffect.scss";
 import Tim from "../../assets/Tim.jpg";
 import stockData from "../../utils/Information.json";
-import Experience from "../../utils/experience.json";
+
 
 export default function Main() {
   return (
@@ -41,27 +41,8 @@ export default function Main() {
           );
         })}
       </div>
-      <h2 className="experienceTitle">გამოცდილება</h2>
-      <div className="experienceCard">
-        {Experience.map((exp) => {
-          return (
-            <div key={exp.id} data={exp}>
-              <div className="Card">
-                <img
-                  src={exp.imageLink}
-                  alt={exp.alt}
-                  className="experienceLogo"
-                />
-                <h4>{exp.title}</h4>
-
-                <div> {exp.jobtitle}</div>
-
-                <div>{exp.years}</div>
-              </div>
-            </div>
-          );
-        })}
-      </div>
+      <h2 className="experienceTitle">Something</h2>
+    
     </div>
   );
 }
