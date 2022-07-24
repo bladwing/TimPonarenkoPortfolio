@@ -1,13 +1,13 @@
+@import "../../scss/colors";
+
 .wrapper {
   text-align: center;
   h1 {
-    color: #fff;
     font-weight: 700;
-    background: linear-gradient(to right,#8a8a8a 10%, #25abe8 50%, #334fac 60%);
+    background: linear-gradient(to right, #142141 50%, #2C488C 60%);
     background-size: auto auto;
     background-clip: border-box;
     background-size: 200% auto;
-    color: #fff;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
