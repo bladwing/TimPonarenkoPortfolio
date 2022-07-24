@@ -1,0 +1,29 @@
+[
+  {
+    "AcademyName": "OL Academy",
+    "educationType": "React JS 40 საათიანი კურსი.",
+    "years": "30.04.2022 - 16.07.2022",
+    "imageLink": "https://scontent.ftbs5-3.fna.fbcdn.net/v/t39.30808-6/287445442_162257062979394_2032897504584995857_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=SABR_TAgtOEAX9sDFmD&_nc_ht=scontent.ftbs5-3.fna&oh=00_AT9L37yQ1Lg_qH8w9gXUtSc-F2TPfIsvx6fDw748TMsN4Q&oe=62E3718E",
+    "alt": "{No Logo}",
+    "certificate": "certificate/olacademy.pdf",
+    "id": 1
+  },
+  {
+    "AcademyName": "ისრაელის ტექნოჰუბის აკადემია",
+    "educationType": "Frond End დეველეპმენტის HTML/CSS/JavaScript/React.js 250 საათიანი კურსი",
+    "years": "23.10.2018 - 29.05.2019",
+    "imageLink": "https://lh3.googleusercontent.com/a-/AFdZucq2dh0h3tEmAlIfdUbHhvvv0SNXNazXbB7vhn-i=w60-h60-p-rp-mo-br100",
+    "alt": "{No Logo}",
+    "certificate": "certificate/techub.jpg",
+    "id": 2
+  },
+  {
+    "AcademyName": "პაატა გუგუშვილის სახელობის უნივერსიტეტი",
+    "educationType": "3 თვიანი  კურსი პროგრამული და სისტემური უზრუნველყოფის სპეციალობით.",
+    "years": "05.02.2011-08.02.2011",
+    "imageLink": "",
+    "alt": "{No Logo}",
+    "certificate": "certificate/gugushvili.jpg",
+    "id": 3
+  }
+]

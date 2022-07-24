@@ -1,14 +1,16 @@
 import React from "react";
 import "./project.scss";
-import ToDo from "../../assets/todo.png";
-import Popup from "../../assets/popup.png";
-import ToBeContimue from "../../assets/BeContinued.jpg";
-import Quiz from "../../assets/quiz.jpg";
+// import ToDo from "../../assets/todo.png";
+// import Popup from "../../assets/popup.png";
+// import ToBeContimue from "../../assets/BeContinued.jpg";
+// import Quiz from "../../assets/quiz.jpg";
 
 export default function Projects() {
   return (
     <div className="ProjectsContainer">
-      <div className="ProjectBlocks">
+
+
+      {/* <div className="ProjectBlocks">
         <a
           href="https://ponarenkotodo.netlify.app/"
           target="_blank"
@@ -29,6 +31,7 @@ export default function Projects() {
           <h3>Popup მენიუ</h3>
         </a>
       </div>
+      
       <div className="ProjectBlocks">
         <a href="https://quizolacademy.netlify.app/" rel="noreferrer">
           <img src={Quiz} alt="quiz" />
@@ -40,7 +43,7 @@ export default function Projects() {
           <img src={ToBeContimue} alt="popup" />
           <h3>...</h3>
         </a>
-      </div>
+      </div> */}
     </div>
   );
 }

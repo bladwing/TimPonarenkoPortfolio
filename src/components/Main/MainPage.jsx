@@ -1,10 +1,10 @@
 import React from "react";
 import { MainMenu } from "../Menu";
+import infokData from "../../utils/Information.json";
+import educationData from "../../utils/educaton.json";
 import "./main.scss";
 import "./NameEffect.scss";
 import Tim from "../../assets/Tim.jpg";
-import stockData from "../../utils/Information.json";
-
 
 export default function Main() {
   return (
@@ -19,7 +19,7 @@ export default function Main() {
       <MainMenu />
 
       <div className="informationCard">
-        {stockData.map((id, key) => {
+        {infokData.map((id, key) => {
           return (
             <div key={key}>
               <ul>
@@ -41,8 +41,22 @@ export default function Main() {
           );
         })}
       </div>
-      <h2 className="experienceTitle">Something</h2>
-    
+      <h2 className="educationTitle">განათლება</h2>
+      <div className="eduTemplate">
+        {educationData.map((edu, key) => {
+          return (
+            <div key={key} className="eduCard">
+              <img src={edu.imageLink} alt={edu.alt} className="eduLogo"/>
+              <h3> {edu.AcademyName}</h3>
+              <div> {edu.educationType}</div>
+              <div className="years"> {edu.years}</div>
+              <a href={edu.certificate} target="blank" className="certLink">სერტიფიკატი</a>
+              <hr />
+            </div>
+            
+          );
+        })}
+      </div>
     </div>
   );
 }

@@ -2,12 +2,14 @@
 .ProjectsContainer {
     display: flex;
     text-align: center;
-    margin: 2% auto 0 auto;
-    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2% auto;
+    width: 90%;
+   
   }
   .ProjectBlocks {
     margin: 0 auto 0 auto;
-    width: 16%;
     margin-left: 1%;
     border-radius: 20px;
   
@@ -26,8 +28,8 @@
   
   .ProjectBlocks > a img {
     text-decoration: none;
-    width: 100%;
+    width: 100px;
     border-radius: 20px;
-    height: 180px;
+   
   }
   
