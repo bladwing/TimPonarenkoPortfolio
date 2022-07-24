@@ -1,9 +1,10 @@
 [
   {
-    "title": "შპს ციტო",
-    "jobtitle": "IT- სპეციალისტი",
-    "years": "May 2015 - Jun 2019",
-    "imageLink": "../../assets/todo.png",
+    "title": "ინფოჯორჯია XXI (საინფორმაციო ცენტრი 118 09)",
+    "jobtitle": "IT სპეციალისტი და ელექტრონიკის ინჟინერი.",
+    "years": "Jun 2012 - May 2015",
+    "imageLink": "https://scontent.ftbs5-2.fna.fbcdn.net/v/t31.18172-8/332734_263952680324024_615098758_o.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=ro6JwUMjQaAAX-IV4Lr&_nc_ht=scontent.ftbs5-2.fna&oh=00_AT988VyfK9jl_fvnx89EtqZ-h7Sb0Cetfc3Xxz3JWtubpA&oe=630281D5",
+    "alt": "{No Logo}",
     "id": 1
   },
   {
@@ -11,34 +12,39 @@
     "jobtitle": "IT სპეციალისტი",
     "years": "May 2015 - Jun 2019",
     "imageLink": "https://cito.ge/wp-content/uploads/2020/03/Logo_new_Geo.png",
+    "alt": "{No Logo}",
     "id": 2
   },
   {
-    "title": "შპს ციტო",
-    "jobtitle": "IT- სპეციალისტი",
-    "years": "May 2015 - Jun 2019",
-    "imageLink": "../../assets/todo.png",
+    "title": "Generals Service Georgia ",
+    "jobtitle": "IT და ელექტრონიკის ინჟინერი",
+    "years": "Dec 2018 - Aug 2019",
+    "imageLink": "",
+    "alt": "{No Logo}",
     "id": 3
   },
   {
-    "title": "შპს ციტო",
-    "jobtitle": "IT- სპეციალისტი",
-    "years": "May 2015 - Jun 2019",
-    "imageLink": "../../assets/todo.png",
+    "title": "შპს იბერმედია",
+    "jobtitle": "პროგრამის კონსულტანტი.",
+    "years": "Dec 2018 - May 2022",
+    "imageLink": "",
+    "alt": "{No Logo}",
     "id": 4
   },
   {
-    "title": "შპს ციტო",
+    "title": "შპს სერვიქს",
     "jobtitle": "IT- სპეციალისტი",
-    "years": "May 2015 - Jun 2019",
-    "imageLink": "../../assets/todo.png",
+    "years": "Feb 2020 - May 2022",
+    "imageLink": "",
+    "alt": "{No Logo}",
     "id": 5
   },
   {
-    "title": "შპს ციტო",
-    "jobtitle": "IT- სპეციალისტი",
-    "years": "May 2015 - Jun 2019",
-    "imageLink": "../../assets/todo.png",
+    "title": "შპს პრიმამედი",
+    "jobtitle": "სამედიცინო ინსტრუმენტების - სერვის ინჟინერი",
+    "years": "Dec 2019 - დღემდე.",
+    "imageLink": "https://scontent.ftbs5-2.fna.fbcdn.net/v/t31.18172-8/21013933_1512639138788786_2753347864885781231_o.png?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=BhTtK13LjU0AX_MWNr1&tn=mYoyF6ElMaY4lK6G&_nc_ht=scontent.ftbs5-2.fna&oh=00_AT8kHQ6FEgSDeqU3KEHCgeThHTCDo4vWCvLM_zaC4b6ZrQ&oe=6303EFD3",
+    "alt": "{No Logo}",
     "id": 6
   }
 ]

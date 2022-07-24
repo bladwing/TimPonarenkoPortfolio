@@ -23,9 +23,7 @@ export default function Main() {
           return (
             <div key={key}>
               <ul>
-                <span className="fuck">
-                  <b>{id.birthdayTitle}</b> {id.Birthday}
-                </span>
+                <b>{id.birthdayTitle}</b> {id.Birthday}
                 <span>
                   <b>{id.contryTitle}</b> {id.Country}
                 </span>
@@ -49,14 +47,16 @@ export default function Main() {
           return (
             <div key={exp.id} data={exp}>
               <div className="Card">
-                <img src={exp.imageLink} alt="logo" className="experienceLogo"/>
-                <h4>
-                  <li>{exp.title}</li>
-                </h4>
+                <img
+                  src={exp.imageLink}
+                  alt={exp.alt}
+                  className="experienceLogo"
+                />
+                <h4>{exp.title}</h4>
 
-                <div>თანამდეობა: {exp.jobtitle}</div>
+                <div> {exp.jobtitle}</div>
 
-                <div>წლები: {exp.years}</div>
+                <div>{exp.years}</div>
               </div>
             </div>
           );
