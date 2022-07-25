@@ -1,30 +1,33 @@
-
 .ProjectsContainer {
-    display: flex;
-    text-align: center;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 2% auto;
-    width: 90%;
-   
-  }
-  .ProjectCard {
-    margin: 0 auto;
-    
-  }
-
-.projectImg {
-   width: 150px;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2% auto;
+  width: 90%;
+  
 }
-.ProjectDetailContainer {
+.ProjectCard {
   margin: 0 auto;
+  
+}
+.projectImg {
+  width: 150px;
+}
+.projectTitle {
+  font-size: 20px;
+  font-weight: 600;
+}
+.projectButton {
+  text-align: center;
+}
+.projectButton a {
+  text-decoration: none;
+  margin-right: 10px;
+  color: black;
+  font-size: 15px;
 }
 
-.projectDetailLink {
-  text-decoration: none;
-  color: black;
-  font-size: 20px;
-}
-.projectDetailLink:hover {
+.projectButton a:hover {
   color: grey;
 }

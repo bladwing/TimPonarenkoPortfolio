@@ -1,5 +1,4 @@
 import React from "react";
-import {Link} from 'react-router-dom'
 import ProjectBase from "../../utils/projects.json";
 import "./project.scss";
 
@@ -12,7 +11,12 @@ export default function Projects() {
             <div key={key} className="ProjectCard">
               <img src={projects.imageLink} alt={projects.alt} className="projectImg"/>
               <br />
-              <Link to={`/project/${projects.id}`} className="projectDetailLink">{projects.ProjectName}</Link>
+             <div className="projectTitle">{projects.ProjectName}</div> 
+             <hr />
+              <div className="projectButton">
+              <a href={projects.github} target="blank">GitHub</a>
+               <a href={projects.LiveDemo} target="blank">Live Demo</a>
+              </div>
             </div>
           );
         })}

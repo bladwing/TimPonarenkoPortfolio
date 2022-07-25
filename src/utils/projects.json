@@ -1,22 +1,33 @@
 [
     {
       "ProjectName": "To-Do აპლიკაცია",
-      "years": "",
+      "github": "https://github.com/bladwing/ol-academy-ponarenko-react-todo",
+      "LiveDemo": "https://ponarenkotodo.netlify.app",
       "imageLink": "/img/todo.png",
       "alt": "{No Logo}",
       "id": 1
     },
     {
       "ProjectName": "Auth Form",
-      "years": "",
+      "github": "https://git@github.com:bladwing/authorizationForm.git",
+      "LiveDemo": "https://authwindows.netlify.app",
       "imageLink": "/img/auth.png",
       "alt": "{No Logo}",
       "id": 2
     },
     {
-      "ProjectName": "Quiz- ვიქტორინა",
-      "years": "",
+      "ProjectName": "Quiz - ვიქტორინა",
+      "github": "https://github.com/bladwing/ol-academy-quiz-app-final-project",
+      "LiveDemo": "https://quizolacademy.netlify.app/",
       "imageLink": "/img/quiz.png",
+      "alt": "{No Logo}",
+      "id": 3
+    },
+    {
+      "ProjectName": "CMS - Joomla - საიტი",
+      "github": "/no",
+      "LiveDemo": "http://alzheimergeorgia.ge/",
+      "imageLink": "http://alzheimergeorgia.ge/images/gaa.png",
       "alt": "{No Logo}",
       "id": 3
     }

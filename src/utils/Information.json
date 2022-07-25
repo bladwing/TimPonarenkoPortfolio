@@ -1,11 +1,8 @@
 [
-  { "birthdayTitle": "დაბადების თარიღი:", "Birthday": "1991" },
-  { "contryTitle": "ქვეყანა:", "Country": "Georgia" },
   {
-    "expereienceTitle": "გამოცდილება:",
-    "Experience": "აქ იქნება ინფორმაცია..."
-  },
-  { "telephoneTitle": "ტელეფონი:", "telephone": "(+995) 555-431-296" },
-  { "emailTitle": "ელ.ფოსტა:", "email": "timoti.ponarenko@gmai.com" },
-  { "gitHubTitle": "GitHub", "GitHub": "https://github/com/bladwing/" }
+    "birthday": "01.1991",
+    "telephone": "(+995) 555-431-296",
+    "email": "timoti.ponarenko@gmai.com",
+    "github": "https://github/com/bladwing/"
+  }
 ]

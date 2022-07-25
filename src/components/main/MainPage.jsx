@@ -22,21 +22,20 @@ export default function Main() {
         {infoData.map((id, key) => {
           return (
             <div key={key}>
-              <ul>
-                <b>{id.birthdayTitle}</b> {id.Birthday}
-                <span>
-                  <b>{id.contryTitle}</b> {id.Country}
-                </span>
-                <span>
-                  <b>{id.telephoneTitle}</b> {id.telephone}
-                </span>
-                <span>
-                  <b>{id.emailTitle}</b> {id.email}
-                </span>
-                <span>
-                  <b>{id.gitHubTitle}</b> {id.GitHub}
-                </span>
-              </ul>
+              <div>
+                <b>დაბადების დღე:</b> {id.birthday}
+              </div>
+              <div>
+                {" "}
+                <b>ტელეფონი:</b> {id.telephone}
+              </div>
+              <div>
+                {" "}
+                <b>ელ. ფოსტა:</b> {id.email}
+              </div>
+              <div>
+                <a href={id.github}>GitHub</a>
+              </div>
             </div>
           );
         })}
@@ -46,14 +45,15 @@ export default function Main() {
         {educationData.map((edu, key) => {
           return (
             <div key={key} className="eduCard">
-              <img src={edu.imageLink} alt={edu.alt} className="eduLogo"/>
+              <img src={edu.imageLink} alt={edu.alt} className="eduLogo" />
               <h3> {edu.AcademyName}</h3>
               <div> {edu.educationType}</div>
               <div className="years"> {edu.years}</div>
-              <a href={edu.certificate} target="blank" className="certLink">სერტიფიკატი</a>
+              <a href={edu.certificate} target="blank" className="certLink">
+                სერტიფიკატი
+              </a>
               <hr />
             </div>
-            
           );
         })}
       </div>

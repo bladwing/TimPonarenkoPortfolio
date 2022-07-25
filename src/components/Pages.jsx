@@ -11,19 +11,14 @@ import FilmsImg from "../assets/films.jpg";
 
 export function Project() {
   return (
-    <div>
+    <span>
       <div className="PhotoAndHeader">
         <img className="ProfilePhoto" src={ProjectImg} alt="profilePhoto" />
         <h1>პროექტები</h1>
       </div>
-
       <MainMenu />
-      <div className="Content">
-      <h1  style={{textAlign: "center", marginBottom: "10%"}}>Under Constraction</h1>
-        <Projects />
-        
-      </div>
-    </div>
+      <Projects />
+    </span>
   );
 }
 export function Hobby() {
@@ -36,7 +31,6 @@ export function Hobby() {
 
       <MainMenu />
       <SubMenu />
-      <div></div>
     </div>
   );
 }
@@ -72,8 +66,7 @@ export function Films() {
 export function NotFound() {
   return (
     <div>
-    <h1>Page Not found - 404</h1>
+      <h1>Page Not found - 404</h1>
     </div>
-  )
-  
+  );
 }
