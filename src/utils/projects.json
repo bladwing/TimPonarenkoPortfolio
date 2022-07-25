@@ -2,21 +2,21 @@
     {
       "ProjectName": "To-Do აპლიკაცია",
       "years": "",
-      "imageLink": "",
+      "imageLink": "/img/todo.png",
       "alt": "{No Logo}",
       "id": 1
     },
     {
       "ProjectName": "Auth Form",
       "years": "",
-      "imageLink": "",
+      "imageLink": "/img/auth.png",
       "alt": "{No Logo}",
       "id": 2
     },
     {
       "ProjectName": "Quiz- ვიქტორინა",
       "years": "",
-      "imageLink": "",
+      "imageLink": "/img/quiz.png",
       "alt": "{No Logo}",
       "id": 3
     }

@@ -9,7 +9,7 @@ export default function Projects() {
         {ProjectBase.map((projects, key) => {
           return (
             <div key={key} className="ProjectCard">
-              <img src={projects.imageLink} alt={projects.alt} />
+              <img src={projects.imageLink} alt={projects.alt} className="projectImg"/>
               <br />
               <a href={projects.id}>{projects.ProjectName}</a>
             </div>
