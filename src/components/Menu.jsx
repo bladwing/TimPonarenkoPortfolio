@@ -8,7 +8,7 @@ export function MainMenu() {
         {" "}
         Tim{" "}
       </Link>
-      <Link to="/project" className="MenuItem">
+      <Link to="/projects" className="MenuItem">
         {" "}
         პროექტები{" "}
       </Link>
