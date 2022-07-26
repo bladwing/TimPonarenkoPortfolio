@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Project, Hobby, Music, Films } from "./components/Pages";
 import NotFound from "./components/NotFound/NotFound"
 import Experience from "./components/experience/experience";
+import Education from "./components/Education"
 import Main from "./components/main/MainPage";
 import "./App.scss";
 import "./scss/effects.scss";
@@ -16,6 +17,7 @@ const App = () => {
           <Route path="/" element={<Main />} />
           <Route path="/projects" element={<Project />} />
           <Route path="/experience" element={<Experience />} />
+          <Route path="/education" element={<Education/>}/>
           <Route path="/hobby" element={<Hobby />} />
           <Route path="/music" element={<Music />} />
           <Route path="/films" element={<Films />} />

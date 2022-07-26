@@ -16,6 +16,10 @@ export function MainMenu() {
         {" "}
         გამოცდილება{" "}
       </Link>
+      <Link to="/education" className="MenuItem">
+        {" "}
+        განათლება{" "}
+      </Link>
       <Link to="/hobby" className="MenuItem">
         {" "}
         ჰობი{" "}
