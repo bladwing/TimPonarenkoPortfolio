@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { Project, Hobby, Music, Films, NotFound } from "./components/Pages";
+import { Project, Hobby, Music, Films } from "./components/Pages";
+import NotFound from "./components/NotFound/NotFound"
 import Experience from "./components/experience/experience";
 import Main from "./components/main/MainPage";
 import "./App.scss";
