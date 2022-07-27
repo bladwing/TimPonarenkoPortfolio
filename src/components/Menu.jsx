@@ -4,11 +4,8 @@ import { Link } from "react-router-dom";
 export function MainMenu() {
   return (
     <div className="Menu">
+     
       <Link to="/" className="MenuItem">
-        {" "}
-        Tim{" "}
-      </Link>
-      <Link to="/projects" className="MenuItem">
         {" "}
         პროექტები{" "}
       </Link>

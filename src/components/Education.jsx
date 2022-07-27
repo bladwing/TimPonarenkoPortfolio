@@ -1,12 +1,16 @@
 import educationData from "../utils/education.json"
 import { MainMenu } from "./Menu";
+import EduLogo from "../assets/education.png"
 
 
 export default function Education () {
     return (
 
         <div>
-            <h2 className="educationTitle">განათლება</h2>
+            <div className="PhotoAndHeader">
+          <img src={EduLogo} alt="eduLogo" className="ProfilePhoto"/>
+            <h1>განათლება</h1>
+            </div>
             <MainMenu/>
         
         <div className="eduTemplate">
