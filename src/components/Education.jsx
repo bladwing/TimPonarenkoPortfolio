@@ -1,6 +1,6 @@
 import educationData from "../utils/education.json"
 import "../scss/NameEffect.scss"
-import { MainMenu } from "./Menu";
+import MainMenu from "./Menu";
 import EduLogo from "../assets/education.png"
 
 

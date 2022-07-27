@@ -9,7 +9,7 @@
     },
     {
       "ProjectName": "Auth Form",
-      "github": "https://git@github.com:bladwing/authorizationForm.git",
+      "github": "https://github.com/bladwing/authorizationForm",
       "LiveDemo": "https://authwindows.netlify.app",
       "imageLink": "/img/auth.png",
       "alt": "{No Logo}",
