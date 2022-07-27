@@ -6,6 +6,7 @@ import Experience from "./components/experience/experience";
 import Education from "./components/Education"
 import "./App.scss";
 import "./scss/effects.scss";
+import Social from "./components/social/Social";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <div className="wrapper Header">
           <h1>Tim Ponarenko</h1>
         </div>
+        <Social/>
         <Routes>
           <Route path="/" element={<Project />} />
           <Route path="/experience" element={<Experience />} />

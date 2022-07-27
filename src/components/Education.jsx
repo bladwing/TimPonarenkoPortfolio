@@ -10,7 +10,7 @@ export default function Education () {
         <div>
             <div className="PhotoAndHeader">
           <img src={EduLogo} alt="eduLogo" className="ProfilePhoto"/>
-            <h1>განათლება</h1>
+            <h1 className="pageTitle">განათლება</h1>
             </div>
             <MainMenu/>
         

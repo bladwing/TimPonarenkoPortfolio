@@ -9,7 +9,8 @@ export function Project() {
     <span>
       <div className="PhotoAndHeader">
         <img className="ProfilePhoto" src={ProjectImg} alt="profilePhoto" />
-        <h1>პროექტები</h1>
+      <h1 className="pageTitle">პროექტები</h1>
+      
       </div>
       <MainMenu />
       <Projects />

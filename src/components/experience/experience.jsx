@@ -8,7 +8,7 @@ export default function Experience() {
     <div>
       <div className="PhotoAndHeader">
         <img className="ProfilePhoto" src={ExperienceImg} alt="profilePhoto" />
-        <h1>გამოცდილება</h1>
+        <h1 className="pageTitle">გამოცდილება</h1>
       </div>
 
       <MainMenu />
