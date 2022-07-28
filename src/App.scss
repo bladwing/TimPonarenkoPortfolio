@@ -73,6 +73,7 @@
 .eduTemplate {
   margin: 0 auto;
   width: 80%;
+  text-align: center;
 }
 .eduCard {
   margin-bottom: 20px;
@@ -94,3 +95,41 @@
   font-weight: 600;
   margin: 10px 0 10px 0;
 }
+.certificateButton {
+  padding: 0.4em 1.0em;
+  border: none;
+  font-family: bpg_nino;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  transition: .3s;
+  z-index: 1;
+  color: #004687;
+ }
+ 
+ .certificateButton::before {
+  content: '';
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #004687;
+  transition: .5s ease;
+  display: block;
+  z-index: -1;
+ }
+ 
+ .certificateButton:hover::before {
+  width: 105%;
+ }
+ 
+ .certificateButton:hover {
+  color: #111;
+  cursor: pointer;
+  color: #fff;
+ }

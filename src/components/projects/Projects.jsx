@@ -14,8 +14,8 @@ export default function Projects() {
              <div className="projectTitle">{projects.ProjectName}</div> 
              <hr />
               <div className="projectButton">
-              <a href={projects.github} target="blank">GitHub</a>
-               <a href={projects.LiveDemo} target="blank">Live Demo</a>
+              <a href={projects.github} target="_blank" rel="noreferrer">GitHub</a>
+               <a href={projects.LiveDemo} target="_blank" rel="noreferrer">Live Demo</a>
               </div>
             </div>
           );
