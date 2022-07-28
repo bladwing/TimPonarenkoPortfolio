@@ -8,7 +8,7 @@ export default function NotFound() {
      
       <div className="notFoundContainer ">
      <h3 className="notFoundTitle"> გვერდი ვერ მოიძებნა</h3> 
-       <h4 className="notFoundLink">გთხოვთ გადადით: <Link to="/">საწყის გვერძე.</Link></h4> 
+       <h4 className="notFoundLink">გთხოვთ გადადით: <Link to="/">საწყის გვერდზე.</Link></h4> 
 
         
       </div>

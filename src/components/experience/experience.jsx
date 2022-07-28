@@ -13,19 +13,19 @@ export default function Experience() {
 
      
 
-      <div className="experienceCard">
+      <div className="experienceCards">
         {ExpBase.map((exp) => {
           return (
-            <div key={exp.id} data={exp}>
+            <div key={exp.id} data={exp} className="cardContainer">
               <div className="Card">
                 <img
                   src={exp.imageLink}
                   alt={exp.alt}
                   className="experienceLogo"
                 />
-                <h4>{exp.title}</h4>
+                <h3>{exp.title}</h3>
 
-                <div> {exp.jobtitle}</div>
+                <div className="jobTitle"> {exp.jobtitle}</div>
 
                 <div>{exp.years}</div>
               </div>
