@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-import MainMenu from "../Menu";
+
 import "./404.scss";
 
 export default function NotFound() {
   return (
     <div>
-      <MainMenu />
+     
       <div className="notFoundContainer ">
      <h3 className="notFoundTitle"> გვერდი ვერ მოიძებნა</h3> 
        <h4 className="notFoundLink">გთხოვთ გადადით: <Link to="/">საწყის გვერძე.</Link></h4> 

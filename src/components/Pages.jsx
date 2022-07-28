@@ -1,5 +1,4 @@
 import React from "react";
-import MainMenu from "./Menu";
 import Projects from "./projects/Projects";
 
 import ProjectImg from "../assets/Project.png";
@@ -12,7 +11,7 @@ export function Project() {
       <h1 className="pageTitle">პროექტები</h1>
       
       </div>
-      <MainMenu />
+  
       <Projects />
     </span>
   );

@@ -1,6 +1,6 @@
 import ExpBase from "../../utils/experience.json";
 import ExperienceImg from "../../assets/experience.png";
-import MainMenu from "../Menu";
+
 import "./exp.scss"
 
 export default function Experience() {
@@ -11,7 +11,7 @@ export default function Experience() {
         <h1 className="pageTitle">გამოცდილება</h1>
       </div>
 
-      <MainMenu />
+     
 
       <div className="experienceCard">
         {ExpBase.map((exp) => {

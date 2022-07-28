@@ -25,23 +25,9 @@
 .ProfilePhoto {
   width: 200px;
   border-radius: 60%;
-}
-.Menu {
-  display: flex;
-  justify-content: center;
-  font-size: 22px;
-  margin-bottom: 2%;
-}
-.Menu a:hover {
-  color: grey;
-  text-decoration: underline;
-}
-
-.MenuItem {
-  text-decoration: none;
-  font-family: BPG Glaho;
-  color: black;
-  padding: 20px;
+  width: 150px;
+  height: 150px;
+  border: 1px solid #004687;
 }
 .Container {
   display: flex;

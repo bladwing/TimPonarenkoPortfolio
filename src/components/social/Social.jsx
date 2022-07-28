@@ -1,28 +1,55 @@
-import "./social.scss"
-import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-import { Link } from "react-router-dom"
+import "./social.scss";
+
 export default function Social() {
   return (
     <div>
-      <nav className="social">
-        <ul>
-          <li>
-           <Link to="/">
-              Twitter <i className="fa fa-twitter"></i>
-              </Link>
-          </li>
-          <li>
-          <Link to="/">
-              Github <i className="fa fa-github"><AiFillGithub/></i>
-              </Link>
-          </li>
-          <li>
-            <Link to="/">
-              Linkedin <i className="fa fa-linkedin"><AiFillLinkedin/></i>
-            </Link>
-          </li>
-        </ul>
-      </nav>
+      <ul>
+        <li>
+          <a
+            href="https://www.facebook.com/timoti.ponarenko/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-facebook" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com/TimotiPonarenko/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-twitter" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/bladwing/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-github" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/tima-ponarenko/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-linkedin" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/tima.ponarenko/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-instagram" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
     </div>
   );
 }

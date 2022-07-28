@@ -1,6 +1,6 @@
 import educationData from "../utils/education.json"
 import "../scss/NameEffect.scss"
-import MainMenu from "./Menu";
+
 import EduLogo from "../assets/education.png"
 
 
@@ -12,7 +12,7 @@ export default function Education () {
           <img src={EduLogo} alt="eduLogo" className="ProfilePhoto"/>
             <h1 className="pageTitle">განათლება</h1>
             </div>
-            <MainMenu/>
+            
         
         <div className="eduTemplate">
           {educationData.map((edu, key) => {
