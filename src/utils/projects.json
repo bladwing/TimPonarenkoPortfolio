@@ -30,6 +30,15 @@
       "imageLink": "img/gaa.png",
       "alt": "{No Logo}",
       "id": 3
+    },
+    {
+      "ProjectName": "ენის გადამრთველი",
+      "github": "https://github.com/bladwing/LanguageSwitcher",
+      "LiveDemo": "https://geolanguageswitcher.netlify.app/",
+      "imageLink": "img/languageSwitcher.jpg",
+      "alt": "{No Logo}",
+      "id": 3
     }
+
   ]
   
