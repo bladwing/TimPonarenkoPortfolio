@@ -1,14 +1,16 @@
 import educationData from "../utils/education.json";
 import "../scss/NameEffect.scss";
+import { useTranslation } from "react-i18next";
 
 import EduLogo from "../assets/education.png";
-
+      
 export default function Education() {
+  const {t} = useTranslation();
   return (
     <div>
       <div className="PhotoAndHeader">
         <img src={EduLogo} alt="eduLogo" className="ProfilePhoto" />
-        <h1 className="pageTitle">განათლება</h1>
+        <h1 className="pageTitle">{t("menuAndTitle.Education")}</h1>
       </div>
 
       <div className="eduTemplate">

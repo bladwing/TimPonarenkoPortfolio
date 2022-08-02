@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { Project } from "./Pages";
+import Project from "./projects/Projects";
 import NotFound from "./NotFound/NotFound";
 import Experience from "./experience/experience";
 import Education from "./Education";
