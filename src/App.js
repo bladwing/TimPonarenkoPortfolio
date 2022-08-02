@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "./components/Nav";
 import Social from "./components/social/Social";
+import LangSwitcher from "./components/langSwitcher/LangSwitcher";
 
 import "./App.scss";
 import "./scss/effects.scss";
@@ -8,6 +9,7 @@ import "./scss/effects.scss";
 const App = () => {
   return (
     <div className="MainPage">
+      <LangSwitcher/>
       <div className="wrapper Header">
         <h1>Tim Ponarenko</h1>
       </div>
