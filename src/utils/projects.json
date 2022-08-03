@@ -1,6 +1,6 @@
 [
     {
-      "ProjectName": "To-Do აპლიკაცია",
+      "ProjectName": "To-Do",
       "github": "https://github.com/bladwing/ol-academy-ponarenko-react-todo",
       "LiveDemo": "https://ponarenkotodo.netlify.app",
       "imageLink": "/img/todo.png",
@@ -16,7 +16,7 @@
       "id": 2
     },
     {
-      "ProjectName": "Quiz - ვიქტორინა",
+      "ProjectName": "Quiz",
       "github": "https://github.com/bladwing/ol-academy-quiz-app-final-project",
       "LiveDemo": "https://quizolacademy.netlify.app/",
       "imageLink": "/img/quiz.png",
@@ -24,7 +24,7 @@
       "id": 3
     },
     {
-      "ProjectName": "CMS - Joomla - საიტი",
+      "ProjectName": "CMS - Joomla",
       "github": "/no",
       "LiveDemo": "http://alzheimergeorgia.ge/",
       "imageLink": "img/gaa.png",
@@ -32,7 +32,7 @@
       "id": 3
     },
     {
-      "ProjectName": "ენის გადამრთველი",
+      "ProjectName": "Language Switcher",
       "github": "https://github.com/bladwing/LanguageSwitcher",
       "LiveDemo": "https://geolanguageswitcher.netlify.app/",
       "imageLink": "img/languageSwitcher.png",
