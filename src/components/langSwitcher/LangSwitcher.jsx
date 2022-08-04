@@ -3,6 +3,7 @@ import Cookies from "js-cookie";
 import { useTranslation } from "react-i18next";
 
 import "./langSwitcher.scss";
+// import En from "../../assets/en.png"
 
 
 export default function LangSwitcher() {
@@ -25,6 +26,7 @@ const [language, setLanguage] = useState(currentLocale);
 
   return (
     <div className="LanguageContainer">
+      
     <select
       onChange={handleChangeLocale}
       value={language}
