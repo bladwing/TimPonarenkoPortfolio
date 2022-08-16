@@ -1,4 +1,12 @@
 [
+  {
+    "ProjectName": "Language Switcher",
+    "github": "https://github.com/bladwing/LanguageSwitcher",
+    "LiveDemo": "https://geolanguageswitcher.netlify.app/",
+    "imageLink": "img/languageSwitcher.png",
+    "alt": "{No Logo}",
+    "id": 3
+  },
     {
       "ProjectName": "To-Do",
       "github": "https://github.com/bladwing/ol-academy-ponarenko-react-todo",
@@ -32,10 +40,10 @@
       "id": 3
     },
     {
-      "ProjectName": "Language Switcher",
-      "github": "https://github.com/bladwing/LanguageSwitcher",
-      "LiveDemo": "https://geolanguageswitcher.netlify.app/",
-      "imageLink": "img/languageSwitcher.png",
+      "ProjectName": "Gun's Online Shop",
+      "github": "https://github.com/bladwing/gun69",
+      "LiveDemo": "https://guns69.herokuapp.com/",
+      "imageLink": "img/guns.png",
       "alt": "{No Logo}",
       "id": 3
     }

@@ -26,7 +26,7 @@ export default function Education() {
                 target="blank"
                 className="certLink"
               >
-                <button className="certificateButton">სერტიფიკატი</button>
+                <button className="certificateButton">{t("Certificate")}</button>
               </a>
               <hr />
             </div>
