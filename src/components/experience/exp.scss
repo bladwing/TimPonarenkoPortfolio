@@ -11,6 +11,8 @@
   
   .Card {
     padding: 10px;
+    font-family: "RobotoMono-Regular";
+    font-size: 13px;
     width: 250px;
     height: 240px;
     text-align: center;
@@ -30,9 +32,7 @@
     transition: 1000px;
     padding: 10px;
   }
-  .experienceLogo:hover {
-    
-  }
+ 
   .jobTitle {
     font-weight: 700;
     margin-bottom: 10px;

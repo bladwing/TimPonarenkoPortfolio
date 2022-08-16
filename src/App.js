@@ -8,10 +8,10 @@ import "./App.scss";
 import "./scss/effects.scss";
 
 const App = () => {
-  const {t} = useTranslation();
+  const { t } = useTranslation();
   return (
     <div className="MainPage">
-      <LangSwitcher/>
+      <LangSwitcher />
       <div className="wrapper Header">
         <h1>{t("TitleName")}</h1>
       </div>

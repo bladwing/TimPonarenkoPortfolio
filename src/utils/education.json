@@ -1,7 +1,7 @@
 [
   {
     "AcademyName": "OL Academy",
-    "educationType": "React JS 40 საათიანი კურსი.",
+    "educationType": "React JS 40 hourly course.",
     "years": "30.04.2022 - 16.07.2022",
     "imageLink": "/img/olacademy.jpg",
     "alt": "{No Logo}",
@@ -9,8 +9,8 @@
     "id": 1
   },
   {
-    "AcademyName": "ისრაელის ტექნოჰუბის აკადემია",
-    "educationType": "Frond End დეველეპმენტის HTML/CSS/JavaScript/React.js 250 საათიანი კურსი",
+    "AcademyName": "Israel Techub Academy",
+    "educationType": "Frond End Development HTML/CSS/JavaScript/React.js 250 hourly course.",
     "years": "23.10.2018 - 29.05.2019",
     "imageLink": "/img/techubLogo.jpg",
     "alt": "{No Logo}",
@@ -18,8 +18,8 @@
     "id": 2
   },
   {
-    "AcademyName": "პაატა გუგუშვილის სახელობის უნივერსიტეტი",
-    "educationType": "3 თვიანი  კურსი პროგრამული და სისტემური უზრუნველყოფის სპეციალობით.",
+    "AcademyName": "Paata Gugushvili University",
+    "educationType": "3-month course specializing in software and system security.",
     "years": "05.02.2011-08.02.2011",
     "imageLink": "/no-logo.png",
     "alt": "{No Logo}",
