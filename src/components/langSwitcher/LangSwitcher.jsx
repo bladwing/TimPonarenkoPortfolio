@@ -1,17 +1,16 @@
 import { useState } from "react";
 import Cookies from "js-cookie";
 import { useTranslation } from "react-i18next";
-
 import "./langSwitcher.scss";
-// import En from "../../assets/en.png"
+
 
 
 export default function LangSwitcher() {
   const { i18n } = useTranslation();
 
   const languages = [
-    { name: "Eng", code: "en" },
-    { name: "ქარ", code: "ge" },
+    { name: "English", code: "en" },
+    { name: "ქართული", code: "ge" },
   ];
 
 const currentLocale = Cookies.get("i18next") || "en";
@@ -33,7 +32,7 @@ const [language, setLanguage] = useState(currentLocale);
       className="LangSwitcher"
     >
       {languages.map(({ name, code }) => (
-        <option key={code} value={code}>
+        <option key={code} value={code} className="option">
           {name}
         </option>
       ))}

@@ -9,19 +9,24 @@
 .ProjectCard {
   margin: 1% auto;
   padding: 1%;
-  transition: 1000ms;
   border-radius: 10px;
   font-family: "RobotoMono-Regular";
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  transition: 1500ms;
 }
 .academyName h3 {
   font-family: "RobotoMono-Regular";
 }
 .ProjectCard:hover {
+
   transition: 400ms;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
+
 .projectImg {
-  width: 150px;
+  width: 170px;
 }
 .projectTitle {
   font-weight: 600;
@@ -48,5 +53,5 @@
   color: #004687;
   border-radius: 10px;
   padding: 5px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(139, 9, 9, 0.566) 0px 3px 8px;
 }

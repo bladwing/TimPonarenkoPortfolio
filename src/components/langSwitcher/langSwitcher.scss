@@ -1,14 +1,19 @@
 .LanguageContainer {
-    padding: 10px;
-    text-align: right;
+  padding: 10px;
+  text-align: right;
 }
 .LangSwitcher {
-    border: none;
-    outline: none;
-    font-weight: 700;
-   
-}
-.LangSwitcher option {
-font-weight: 700;
+  border: none;
+  outline: none;
+  padding: 3px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 2px 4px 8px #c5c5c5;
+  transition: all 300ms;
+  color: #004687;
 
+}
+.option {
+  font-weight: 700;
+  color: #004687;
 }

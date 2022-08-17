@@ -361,9 +361,10 @@ export default function NotFound() {
                   <text
                     transform="translate(659.5 213.994)"
                     className="st8 st10"
-                    fontSize="24.025"
+                    fontSize="20.025"
                   >
-                    Page not found.
+                    {t("notfound.title")}
+                 
                   </text>
                 </g>
                 <g id="ladders">

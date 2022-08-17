@@ -6,7 +6,7 @@ import ProjectBase from "../../utils/projects.json";
 import ProjectImg from "../../assets/Project.png";
 
 export default function Projects() {
-  const {t} = useTranslation();
+  const { t } = useTranslation();
   return (
     <div className="ProjectsContainer">
       <div className="PhotoAndHeader">
@@ -17,11 +17,13 @@ export default function Projects() {
       {ProjectBase.map((projects, key) => {
         return (
           <div key={key} className="ProjectCard">
-            <img
-              src={projects.imageLink}
-              alt={projects.alt}
-              className="projectImg"
-            />
+           
+              <img
+                src={projects.imageLink}
+                alt={projects.alt}
+                className="projectImg"
+              />
+           
             <br />
             <div className="projectTitle">{projects.ProjectName}</div>
             <hr />
