@@ -1,14 +1,19 @@
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 import "./404.scss";
 
 export default function NotFound() {
+  const {t} = useTranslation();
   return (
     <div>
      
       <div className="notFoundContainer ">
-     <h3 className="notFoundTitle"> გვერდი ვერ მოიძებნა</h3> 
-       <h4 className="notFoundLink">გთხოვთ გადადით: <Link to="/">საწყის გვერდზე.</Link></h4> 
+     <h3 className="notFoundTitle">  {t("notfound.title")}</h3> 
+       
+     
+
+       <h4 className="notFoundLink"> {t("notfound.goToMainPage")} <Link to="/">{t("notfound.mainPageLink")}</Link></h4> 
 
         
       </div>

@@ -6,5 +6,10 @@
   },
 
   "TitleName": "ტიმ პონარენკო",
-  "Certificate": "სერტიფიკატი"
+  "Certificate": "სერტიფიკატი",
+  "notfound": {
+    "title": "გვერდი ვერ მოიძებნა",
+    "goToMainPage": "გთხოვთ გადადით:",
+    "mainPageLink": "საწყის გვერდზე."
+  }
 }

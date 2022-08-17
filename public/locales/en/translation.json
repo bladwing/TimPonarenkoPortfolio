@@ -6,5 +6,11 @@
   },
 
   "TitleName": "Tim Ponarenko",
-  "Certificate": "Certificate"
+  "Certificate": "Certificate",
+
+  "notfound": {
+    "title": "Page not found",
+    "goToMainPage": "Please go to:",
+    "mainPageLink": "Main Page."
+  }
 }

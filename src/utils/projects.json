@@ -5,7 +5,7 @@
     "LiveDemo": "https://geolanguageswitcher.netlify.app/",
     "imageLink": "img/languageSwitcher.png",
     "alt": "{No Logo}",
-    "id": 3
+    "id": 6
   },
     {
       "ProjectName": "To-Do",
@@ -37,7 +37,7 @@
       "LiveDemo": "http://alzheimergeorgia.ge/",
       "imageLink": "img/gaa.png",
       "alt": "{No Logo}",
-      "id": 3
+      "id": 4
     },
     {
       "ProjectName": "Gun's Shop",
@@ -45,7 +45,23 @@
       "LiveDemo": "https://guns69.herokuapp.com/",
       "imageLink": "img/guns.png",
       "alt": "{No Logo}",
-      "id": 3
+      "id": 5
+    },
+    {
+      "ProjectName": "Cinema Show",
+      "github": "https://github.com/bladwing/cinema",
+      "LiveDemo": "nopresent",
+      "imageLink": "",
+      "alt": "{No Logo}",
+      "id": 7
+    },
+    {
+      "ProjectName": "Device Menu",
+      "github": "",
+      "LiveDemo": "nopresent",
+      "imageLink": "",
+      "alt": "{No Logo}",
+      "id": 8
     }
 
   ]
