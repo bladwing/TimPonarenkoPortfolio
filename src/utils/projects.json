@@ -1,11 +1,19 @@
 [
   {
-    "ProjectName": "Device Menu",
-    "github": "",
-    "LiveDemo": "/nopresent",
+    "ProjectName": "Biomerieux: Vidas",
+    "github": "https://github.com/bladwing/miniVidas",
+    "LiveDemo": "https://minividas.netlify.app/",
     "imageLink": "img/medical.png",
     "alt": "{No Logo}",
     "id": 8
+  },
+  {
+    "ProjectName": "Horiba: Micros 60",
+    "github": "https://github.com/bladwing/abxmicros60menu",
+    "LiveDemo": "https://abx60.netlify.app/",
+    "imageLink": "img/medical.png",
+    "alt": "{No Logo}",
+    "id": 9
   },
   {
     "ProjectName": "Language Switcher",
