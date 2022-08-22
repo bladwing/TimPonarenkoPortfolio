@@ -25,16 +25,16 @@
   },
     {
       "ProjectName": "To-Do",
-      "github": "https://github.com/bladwing/ol-academy-ponarenko-react-todo",
-      "LiveDemo": "https://ponarenkotodo.netlify.app",
+      "github": "https://github.com/bladwing/react-todo-list",
+      "LiveDemo": "https://todocomponents.netlify.app/",
       "imageLink": "/img/todo.png",
       "alt": "{No Logo}",
       "id": 1
     },
     {
       "ProjectName": "Quiz",
-      "github": "https://github.com/bladwing/ol-academy-quiz-app-final-project",
-      "LiveDemo": "https://quizolacademy.netlify.app/",
+      "github": "https://github.com/bladwing/quiz-react-app",
+      "LiveDemo": "https://quizreactappfe.netlify.app/",
       "imageLink": "/img/quiz.png",
       "alt": "{No Logo}",
       "id": 3
@@ -54,14 +54,6 @@
       "imageLink": "img/guns.png",
       "alt": "img/no-logo.png",
       "id": 5
-    },
-    {
-      "ProjectName": "Cinema Show",
-      "github": "https://github.com/bladwing/cinema",
-      "LiveDemo": "https://cinemashows.netlify.app/",
-      "imageLink": "img/no-logo.png",
-      "alt": "{No Logo}",
-      "id": 7
     }
 
   ]
