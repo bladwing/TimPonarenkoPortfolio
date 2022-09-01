@@ -9,6 +9,15 @@
     "id": 1
   },
   {
+    "AcademyName": "BeOnMax",
+    "educationType": "Web Developer course.",
+    "years": "10.10.2021",
+    "imageLink": "img/beonmax.png",
+    "alt": "{No Logo}",
+    "certificate": "https://beonmax.com/certificates/8c9d0d09bc7ed3fc6be626303d65859d/en/pdf/",
+    "id": 4
+  },
+  {
     "AcademyName": "Israel Techub Academy",
     "educationType": "Frond End Development HTML/CSS/JavaScript/React.js 250 hourly course.",
     "years": "23.10.2018 - 29.05.2019",
