@@ -6,7 +6,7 @@ export default function Social() {
       <ul>
         <li>
           <a
-            href="https://www.facebook.com/timoti.ponarenko/"
+            href="https://www.facebook.com/tim.ponarenko/"
             target="_blank"
             rel="noreferrer"
           >
