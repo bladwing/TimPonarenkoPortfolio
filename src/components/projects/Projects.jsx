@@ -26,6 +26,7 @@ export default function Projects() {
            
             <br />
             <div className="projectTitle">{projects.ProjectName}</div>
+            <div className="ProjectRequirerName">{projects.ProjectRequirerName}</div>
             <hr />
             <div className="projectButton">
               <a href={projects.github} target="_blank" rel="noreferrer">

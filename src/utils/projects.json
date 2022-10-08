@@ -1,6 +1,7 @@
 [
   {
-    "ProjectName": ["Products(FullStuck)"],
+    "ProjectName": "Products(FullStuck)",
+    "ProjectRequirerName": "Scandyweb",
     "github": "https://github.com/bladwing/ProductList",
     "LiveDemo": "https://productlistcrud.netlify.app/",
     "imageLink": "img/productList.png",
@@ -32,7 +33,8 @@
     "id": 2
   },
     {
-      "ProjectName": "To-Do",
+      "ProjectName": "To-Do APP",
+      "ProjectRequirerName": "OL Academy",
       "github": "https://github.com/bladwing/react-todo-list",
       "LiveDemo": "https://todocomponents.netlify.app/",
       "imageLink": "/img/todo.png",
@@ -40,7 +42,8 @@
       "id": 1
     },
     {
-      "ProjectName": "Quiz",
+      "ProjectName": "Quiz APP",
+      "ProjectRequirerName": "OL Academy",
       "github": "https://github.com/bladwing/quiz-react-app",
       "LiveDemo": "https://quizreactappfe.netlify.app/",
       "imageLink": "/img/quiz.png",
@@ -49,6 +52,7 @@
     },
     {
       "ProjectName": "CMS - Joomla",
+      "ProjectRequirerName": "",
       "github": "/no",
       "LiveDemo": "http://alzheimergeorgia.ge/",
       "imageLink": "img/gaa.png",
@@ -57,6 +61,7 @@
     },
     {
       "ProjectName": "Gun's Shop",
+      "ProjectRequirerName": "Israel Techub",
       "github": "https://github.com/bladwing/gun69",
       "LiveDemo": "https://guns69.herokuapp.com/",
       "imageLink": "img/guns.png",
