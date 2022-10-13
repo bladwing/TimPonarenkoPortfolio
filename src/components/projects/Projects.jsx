@@ -12,21 +12,32 @@ export default function Projects() {
       <div className="PhotoAndHeader">
         <img className="ProfilePhoto" src={ProjectImg} alt="profilePhoto" />
         <h1 className="pageTitle">{t("menuAndTitle.Projects")}</h1>
+        <a
+          href="https://www.tiktok.com/@bladwing5/video/7145970491776388353?is_copy_url=1&is_from_webapp=v1&lang=en"
+          target="_blank"
+          rel="noreferrer"
+          className="btn-flip"
+          data-back={t("menuAndTitle.Video")}
+          data-front={t("menuAndTitle.Video1")}
+        >
+          test
+        </a>
       </div>
 
       {ProjectBase.map((projects, key) => {
         return (
           <div key={key} className="ProjectCard">
-           
-              <img
-                src={projects.imageLink}
-                alt={projects.alt}
-                className="projectImg"
-              />
-           
+            <img
+              src={projects.imageLink}
+              alt={projects.alt}
+              className="projectImg"
+            />
+
             <br />
             <div className="projectTitle">{projects.ProjectName}</div>
-            <div className="ProjectRequirerName">{projects.ProjectRequirerName}</div>
+            <div className="ProjectRequirerName">
+              {projects.ProjectRequirerName}
+            </div>
             <hr />
             <div className="projectButton">
               <a href={projects.github} target="_blank" rel="noreferrer">
