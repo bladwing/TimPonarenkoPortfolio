@@ -1,11 +1,27 @@
 [
   {
-    "title": "Information Center",
-    "jobtitle": "IT Engineer",
-    "years": "June 2012 - May 2015",
-    "imageLink": "img/11809.jpg",
+    "title": "LLC Primamedi",
+    "jobtitle": "Service Engineer",
+    "years": "December 2019 - Present.",
+    "imageLink": "./img/primamedi.png",
     "alt": "{No Logo}",
-    "id": 1
+    "id": 6
+  },
+  {
+    "title": "LLC ServX",
+    "jobtitle": "IT Engineer",
+    "years": "February 2020 - May 2022",
+    "imageLink": "/img/no-logo.png",
+    "alt": "{No Logo}",
+    "id": 5
+  },
+  {
+    "title": "LLC Ibermedia",
+    "jobtitle": "Program consultant",
+    "years": "December 2018 - May 2022",
+    "imageLink": "/img/no-logo.png",
+    "alt": "{No Logo}",
+    "id": 4
   },
   {
     "title": "Medical Center Cito",
@@ -24,27 +40,11 @@
     "id": 3
   },
   {
-    "title": "LLC Ibermedia",
-    "jobtitle": "Program consultant",
-    "years": "December 2018 - May 2022",
-    "imageLink": "/img/no-logo.png",
-    "alt": "{No Logo}",
-    "id": 4
-  },
-  {
-    "title": "LLC ServX",
+    "title": "Information Center",
     "jobtitle": "IT Engineer",
-    "years": "February 2020 - May 2022",
-    "imageLink": "/img/no-logo.png",
+    "years": "June 2012 - May 2015",
+    "imageLink": "img/11809.jpg",
     "alt": "{No Logo}",
-    "id": 5
-  },
-  {
-    "title": "LLC Primamedi",
-    "jobtitle": "Service Engineer",
-    "years": "December 2019 - Present.",
-    "imageLink": "./img/primamedi.png",
-    "alt": "{No Logo}",
-    "id": 6
+    "id": 1
   }
 ]
