@@ -43,9 +43,11 @@ export default function Projects() {
               <a href={projects.github} target="_blank" rel="noreferrer">
                 GitHub
               </a>
-              <a href={projects.LiveDemo} target="_blank" rel="noreferrer">
-                Live Demo
-              </a>
+              {projects.LiveDemo !== "" ? 
+                <a href={projects.LiveDemo} target="_blank" rel="noreferrer">
+                  Live Demo
+                </a> : <div style={{fontSize: "14px", color: "green"}}>In progress <img src="./img/progress.gif" alt="progress" style={{width: "20px", height: "20px"}}/></div>
+              }
             </div>
           </div>
         );

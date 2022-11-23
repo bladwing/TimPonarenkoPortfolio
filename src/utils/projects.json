@@ -1,12 +1,22 @@
 [
   {
+    "ProjectName": "Inventory Management",
+    "ProjectRequirerName": "Shiba INU",
+    "github": "https://github.com/bladwing/inventorymanagement",
+    "": "In progress",
+    "imageLink": "img/inventorymanagement.png",
+    "alt": "{No Logo}",
+    "LiveDemo": "",
+    "id": 11
+  },
+  {
     "ProjectName": "Products(FullStuck)",
     "ProjectRequirerName": "Scandiweb",
     "github": "https://github.com/bladwing/productsflow",
     "LiveDemo": "https://productlistcrud.netlify.app/",
     "imageLink": "img/productList.png",
     "alt": "{No Logo}",
-    "id": 9
+    "id": 10
   },
   {
     "ProjectName": "Node CRUD",
