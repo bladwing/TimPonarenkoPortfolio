@@ -20,7 +20,6 @@ export default function Projects() {
           data-back={t("menuAndTitle.Video")}
           data-front={t("menuAndTitle.Video1")}
         >
-          test
         </a>
       </div>
 
