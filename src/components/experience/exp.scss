@@ -1,39 +1,51 @@
 .experienceTitle {
-    text-align: center;
-  }
-  .experienceCards {
-    display: flex;
-    margin: 0 auto;
-    justify-content: space-around;
-    width: 90%;
-    flex-wrap: wrap;
-  }
-  
-  .Card {
-    padding: 10px;
-    font-family: "RobotoMono-Regular";
-    font-size: 13px;
-    width: 250px;
-    height: 240px;
-    text-align: center;
-    border-radius: 10px;
-    margin-bottom: 25%;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-    transition: 1000ms;
-  }
-  .Card:hover {
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-  }
-  .experienceLogo {
-    width: 100px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 0px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    border-radius: 10px;
-    margin: auto 0 auto 0;
-    transition: 1000px;
-    padding: 10px;
-  }
- 
-  .jobTitle {
+  text-align: center;
+}
+
+.experienceCards {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  width: 90%;
+  flex-wrap: wrap;
+
+  h3 {
     font-weight: 700;
-    margin-bottom: 10px;
+    font-style: bold;
+    a {
+      text-decoration: none;
+      color: black;
+    }
   }
+}
+
+.Card {
+  padding: 10px;
+  font-family: "RobotoMono-Regular";
+  font-size: 13px;
+  width: 250px;
+  height: 240px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 25%;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  transition: 1000ms;
+}
+.Card:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+.experienceLogo {
+  width: 100px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 0px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 10px;
+  margin: auto 0 auto 0;
+  transition: 1000px;
+  padding: 10px;
+}
+
+.jobTitle {
+  font-weight: 700;
+  margin-bottom: 10px;
+}

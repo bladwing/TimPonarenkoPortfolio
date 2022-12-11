@@ -2,9 +2,10 @@
   {
     "title": "LLC Primamedi",
     "jobtitle": "Service Engineer",
-    "years": "December 2019 - Present.",
+    "years": "December 2019 - November 2022",
     "imageLink": "./img/primamedi.png",
     "alt": "{No Logo}",
+    "link": "https://www.facebook.com/primamedi",
     "id": 6
   },
   {
@@ -13,6 +14,7 @@
     "years": "February 2020 - May 2022",
     "imageLink": "/img/no-logo.png",
     "alt": "{No Logo}",
+    "link": "https://www.facebook.com/ServXgeorgia",
     "id": 5
   },
   {
@@ -21,15 +23,8 @@
     "years": "December 2018 - May 2022",
     "imageLink": "/img/no-logo.png",
     "alt": "{No Logo}",
+    
     "id": 4
-  },
-  {
-    "title": "Medical Center Cito",
-    "jobtitle": "IT Engineer",
-    "years": "May 2015 - June 2019",
-    "imageLink": "img/medicalCenterCito.png",
-    "alt": "{No Logo}",
-    "id": 2
   },
   {
     "title": "Generals Service Georgia",
@@ -37,7 +32,17 @@
     "years": "December 2018 - August 2019",
     "imageLink": "/img/no-logo.png",
     "alt": "{No Logo}",
+   
     "id": 3
+  },
+  {
+    "title": "Medical Center Cito",
+    "jobtitle": "IT Engineer",
+    "years": "May 2015 - June 2019",
+    "imageLink": "img/medicalCenterCito.png",
+    "alt": "{No Logo}",
+    "link": "https://www.facebook.com/cito.medical.center",
+    "id": 2
   },
   {
     "title": "Information Center",
@@ -45,6 +50,7 @@
     "years": "June 2012 - May 2015",
     "imageLink": "img/11809.jpg",
     "alt": "{No Logo}",
+    "link": "https://www.facebook.com/11809.ge",
     "id": 1
   }
 ]
