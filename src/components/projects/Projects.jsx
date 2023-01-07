@@ -19,6 +19,7 @@ export default function Projects() {
           className="btn-flip"
           data-back={t("menuAndTitle.Video")}
           data-front={t("menuAndTitle.Video1")}
+          aria-label="tiktok"
         >
         </a>
       </div>

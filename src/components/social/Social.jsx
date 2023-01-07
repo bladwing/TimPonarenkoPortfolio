@@ -9,6 +9,7 @@ export default function Social() {
             href="https://www.facebook.com/tim.ponarenko/"
             target="_blank"
             rel="noreferrer"
+            aria-label="Facebook"
           >
             <i className="fab fa-facebook" aria-hidden="true"></i>
           </a>
@@ -18,6 +19,7 @@ export default function Social() {
             href="https://twitter.com/TimotiPonarenko/"
             target="_blank"
             rel="noreferrer"
+            aria-label="Twitter"
           >
             <i className="fab fa-twitter" aria-hidden="true"></i>
           </a>
@@ -27,6 +29,7 @@ export default function Social() {
             href="https://github.com/bladwing/"
             target="_blank"
             rel="noreferrer"
+            aria-label="Github"
           >
             <i className="fab fa-github" aria-hidden="true"></i>
           </a>
@@ -36,6 +39,7 @@ export default function Social() {
             href="https://www.linkedin.com/in/tima-ponarenko/"
             target="_blank"
             rel="noreferrer"
+            aria-label="Linkedin"
           >
             <i className="fab fa-linkedin" aria-hidden="true"></i>
           </a>
@@ -45,6 +49,7 @@ export default function Social() {
             href="https://www.instagram.com/tima.ponarenko/"
             target="_blank"
             rel="noreferrer"
+            aria-label="Instagram"
           >
             <i className="fab fa-instagram" aria-hidden="true"></i>
           </a>
