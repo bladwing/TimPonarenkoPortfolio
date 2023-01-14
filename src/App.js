@@ -10,7 +10,6 @@ import "./scss/effects.scss";
 
 const App = () => {
   const { t } = useTranslation();
-  const lang = JSON.parse(localStorage.getItem("lang"));
   return (
     <div className="MainPage" >
       <LangSwitcher />
