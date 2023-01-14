@@ -11,7 +11,7 @@ export default function MainMenu() {
   return (
     <div
       className="Menu"
-      style={{ fontFamily: lang === "ge" ? "BPG Glaho" : "RobotoMono-Regular" }}
+      style={{ fontFamily: lang === "ge" ? "BPG Glaho" : "Josefin Sans" }}
     >
       <Link to="/" className="MenuItem">
         {t("menuAndTitle.Projects")}

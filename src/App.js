@@ -3,20 +3,18 @@ import Nav from "./components/Nav";
 import Social from "./components/social/Social";
 import LangSwitcher from "./components/langSwitcher/LangSwitcher";
 import Profile from "./components/profile/Profile";
-import { useTranslation } from "react-i18next";
+import Title from "./components/Title";
 
 import "./App.scss";
 import "./scss/effects.scss";
 
+
 const App = () => {
-  const { t } = useTranslation();
   return (
-    <div className="MainPage" >
+    <div className="MainPage">
       <LangSwitcher />
-      <div className="wrapper Header">
-        <h1>{t("TitleName")}</h1>
-      </div>
-      <Profile/>
+      <Title />
+      <Profile />
       <Nav />
       <Social />
     </div>

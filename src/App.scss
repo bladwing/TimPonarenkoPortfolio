@@ -1,15 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Quicksand&display=swap');
 @import "./scss/colors";
 @font-face {
   font-family: "BPG Glaho";
   src: url("./fonts/bpg_glaho.ttf");
 }
-@font-face {
-  font-family: "RobotoMono-Regular";
-  src: url("./fonts/RobotoMono-Regular.ttf");
-}
+
 .Container {
   text-align: center;
   font-family: "BPG Glaho";
+  
 }
 .MainPage {
   width: 50%;
