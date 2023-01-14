@@ -37,7 +37,9 @@ export default function Projects() {
             <div className="projectTitle">{projects.ProjectName}</div>
             <div className="ProjectRequirerName">
               {projects.ProjectRequirerName}
+              
             </div>
+            {projects.CreateDate}
             <hr />
             <div className="projectButton">
               <a href={projects.github} target="_blank" rel="noreferrer">

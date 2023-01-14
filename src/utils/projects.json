@@ -6,6 +6,7 @@
     "": "In progress",
     "imageLink": "img/todoapp.jpg",
     "alt": "{No Logo}",
+    "CreateDate": "Dec 3, 2022",
     "LiveDemo": "",
     "id": 12
   },
@@ -13,10 +14,11 @@
     "ProjectName": "Inventory Management",
     "ProjectRequirerName": "Shiba INU",
     "github": "https://github.com/bladwing/inventorymanagement",
+    "LiveDemo": "https://invmanagersite.netlify.app/",
     "": "In progress",
     "imageLink": "img/inventorymanagement.png",
     "alt": "{No Logo}",
-    "LiveDemo": "https://invmanagersite.netlify.app/",
+    "CreateDate": "Nov 23, 2022",
     "id": 11
   },
   {
@@ -25,6 +27,7 @@
     "github": "https://github.com/bladwing/productsflow",
     "LiveDemo": "https://productlistcrud.netlify.app/",
     "imageLink": "img/productList.png",
+    "CreateDate": "Oct 8, 2022",
     "alt": "{No Logo}",
     "id": 10
   },
@@ -34,30 +37,35 @@
     "github": "https://github.com/bladwing/simplenodecrud",
     "LiveDemo": "https://nodeapicrud.herokuapp.com/",
     "imageLink": "img/nodecrud.png",
+    "CreateDate": "Nov 19, 2022",
     "alt": "{No Logo}",
     "id": 9
-  },
-  {
-    "ProjectName": "Biomerieux: Vidas",
-    "github": "https://github.com/bladwing/miniVidas",
-    "LiveDemo": "https://minividas.netlify.app/",
-    "imageLink": "img/medical.png",
-    "alt": "{No Logo}",
-    "id": 8
   },
   {
     "ProjectName": "Language Switcher",
     "github": "https://github.com/bladwing/LanguageSwitcher",
     "LiveDemo": "https://geolanguageswitcher.netlify.app/",
     "imageLink": "img/languageSwitcher.png",
+    "CreateDate": "Sep 4, 2022",
     "alt": "{No Logo}",
     "id": 6
   },
+  {
+    "ProjectName": "Biomerieux: Vidas",
+    "github": "https://github.com/bladwing/miniVidas",
+    "LiveDemo": "https://minividas.netlify.app/",
+    "imageLink": "img/medical.png",
+    "CreateDate": "Aug 22, 2022",
+    "alt": "{No Logo}",
+    "id": 8
+  },
+
   {
     "ProjectName": "Auth Form",
     "github": "https://github.com/bladwing/authorizationForm",
     "LiveDemo": "https://authwindows.netlify.app",
     "imageLink": "/img/auth.png",
+    "CreateDate": "Aug 29, 2022",
     "alt": "{No Logo}",
     "id": 2
   },
@@ -67,6 +75,7 @@
       "github": "https://github.com/bladwing/react-todo-list",
       "LiveDemo": "https://todocomponents.netlify.app/",
       "imageLink": "/img/todo.png",
+      "CreateDate": "Jun 8, 2022",
       "alt": "{No Logo}",
       "id": 1
     },
@@ -76,17 +85,9 @@
       "github": "https://github.com/bladwing/quiz-react-app",
       "LiveDemo": "https://quizreactappfe.netlify.app/",
       "imageLink": "/img/quiz.png",
+      "CreateDate": "Jul 7, 2022",
       "alt": "{No Logo}",
       "id": 3
-    },
-    {
-      "ProjectName": "CMS - Joomla",
-      "ProjectRequirerName": "",
-      "github": "/no",
-      "LiveDemo": "http://alzheimergeorgia.ge/",
-      "imageLink": "img/gaa.png",
-      "alt": "{No Logo}",
-      "id": 4
     },
     {
       "ProjectName": "Gun's Shop",
@@ -94,9 +95,19 @@
       "github": "https://github.com/bladwing/gun69",
       "LiveDemo": "https://guns69.herokuapp.com/",
       "imageLink": "img/guns.png",
+      "CreateDate": "May 29, 2019",
       "alt": "img/no-logo.png",
       "id": 5
+    },
+    {
+      "ProjectName": "CMS - Joomla",
+      "ProjectRequirerName": "",
+      "github": "/no",
+      "LiveDemo": "http://alzheimergeorgia.ge/",
+      "imageLink": "img/gaa.png",
+      "CreateDate": "Octomber 21, 2018",
+      "alt": "{No Logo}",
+      "id": 4
     }
-
   ]
   
