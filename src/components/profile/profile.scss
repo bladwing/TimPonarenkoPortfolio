@@ -1,0 +1,57 @@
+.ProfileContainer {
+    display: flex;
+    width: 87%;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    color: #004687;
+    font-size: 14px;
+
+}
+
+.profilePhoto {
+    width: 150px;
+    border: 5px solid #004687;
+    border-radius: 60%;
+    margin: 10px;
+    cursor: zoom-in;
+
+}
+
+.profilePhoto:hover {
+    border: 5px solid grey;
+
+
+}
+
+.modal__backdrop {
+    background: rgba(0, 0, 0, 0.65);
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.modal__container {
+    background: #fff;
+    border-radius: 5px;
+    max-width: 100%;
+    margin: 50px auto;
+    padding: 15px;
+    width: 560px;
+    border-radius: 20px;
+    cursor: zoom-out;
+}
+
+.modal__title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+img {
+    width: 100%;
+}

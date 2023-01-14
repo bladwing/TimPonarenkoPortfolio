@@ -6,8 +6,13 @@ import "./menu.scss";
 
 export default function MainMenu() {
   const { t } = useTranslation();
+  const lang = JSON.parse(localStorage.getItem("lang"));
+
   return (
-    <div className="Menu">
+    <div
+      className="Menu"
+      style={{ fontFamily: lang == "ge" ? "BPG Glaho" : "RobotoMono-Regular" }}
+    >
       <Link to="/" className="MenuItem">
         {t("menuAndTitle.Projects")}
       </Link>
