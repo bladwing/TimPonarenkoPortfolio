@@ -5,9 +5,9 @@ import LangSwitcher from "./components/langSwitcher/LangSwitcher";
 import Profile from "./components/profile/Profile";
 import Title from "./components/Title";
 
+
 import "./App.scss";
 import "./scss/effects.scss";
-
 
 const App = () => {
   return (

@@ -1,27 +1,27 @@
 .ProfileContainer {
     display: flex;
-    width: 87%;
     justify-content: center;
+    flex-wrap: wrap;
     text-align: center;
     margin: 0 auto;
     color: #004687;
     font-size: 14px;
 
-}
-
+    h3 {
+        width: 70%;
+        margin: 4% auto;
+    }
 .profilePhoto {
     width: 150px;
     border: 5px solid #004687;
-    border-radius: 60%;
+    border-radius: 20%;
     margin: 10px;
     cursor: zoom-in;
-
 }
 
 .profilePhoto:hover {
     border: 5px solid grey;
-
-
+}
 }
 
 .modal__backdrop {
