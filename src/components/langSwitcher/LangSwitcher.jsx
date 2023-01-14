@@ -35,8 +35,8 @@ export default function LangSwitcher() {
         ))}
       </select>
       {currentLocale === "ge"
-        ? localStorage.setItem("lang", JSON.stringify(["ge"]))
-        : localStorage.setItem("lang", JSON.stringify(["en"]))}
+        ? localStorage.setItem("lang", JSON.stringify("ge"))
+        : localStorage.setItem("lang", JSON.stringify("en"))}
     </div>
   );
 }
