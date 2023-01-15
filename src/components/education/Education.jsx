@@ -4,16 +4,18 @@ import "../../scss/NameEffect.scss";
 import { useTranslation } from "react-i18next";
 
 import EduLogo from "../../assets/education.png";
+import OtheCertificate from "./OtheCertificate";
       
 export default function Education() {
   const {t} = useTranslation();
   return (
     <div>
+    
       <div className="PhotoAndHeader">
         <img src={EduLogo} alt="eduLogo" className="ProfilePhoto" />
         <h1 className="pageTitle">{t("menuAndTitle.Education")}</h1>
       </div>
-
+      <h2 className="pageTitle" style={{margin: "0 auto 5%", textAlign: "center" }}>Programming Education</h2>
       <div className="eduTemplate">
         {educationData.map((edu, key) => {
           return (
@@ -34,6 +36,7 @@ export default function Education() {
           );
         })}
       </div>
+      <OtheCertificate/>
     </div>
   );
 }

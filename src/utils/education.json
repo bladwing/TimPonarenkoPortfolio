@@ -2,7 +2,7 @@
   {
     "AcademyName": "OL Academy",
     "educationType": "React JS 40 hourly course.",
-    "years": "30.04.2022 - 16.07.2022",
+    "years": "August 2022",
     "imageLink": "/img/olacademy.jpg",
     "alt": "{No Logo}",
     "certificate": "certificate/olacademy.pdf",
@@ -11,7 +11,7 @@
   {
     "AcademyName": "BeOnMax",
     "educationType": "Web Developer course.",
-    "years": "13.10.2021",
+    "years": "November 2021",
     "imageLink": "img/beonmax.png",
     "alt": "{No Logo}",
     "certificate": "https://beonmax.com/certificates/8c9d0d09bc7ed3fc6be626303d65859d/en/pdf/",
@@ -19,20 +19,11 @@
   },
   {
     "AcademyName": "Israel Techub Academy",
-    "educationType": "Frond End Development HTML/CSS/JavaScript/React.js 250 hourly course.",
-    "years": "23.10.2018 - 29.05.2019",
+    "educationType": "Frond End Development",
+    "years": "June 2019",
     "imageLink": "/img/techubLogo.jpg",
     "alt": "{No Logo}",
     "certificate": "certificate/techub.jpg",
     "id": 2
-  },
-  {
-    "AcademyName": "Paata Gugushvili University",
-    "educationType": "Three-month, software and system support course.",
-    "years": "05.02.2011-08.02.2011",
-    "imageLink": "/no-logo.png",
-    "alt": "{No Logo}",
-    "certificate": "certificate/gugushvili.jpg",
-    "id": 3
   }
 ]

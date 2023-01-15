@@ -1,0 +1,56 @@
+[
+  {
+    "AcademyName": "EXIAS Medical",
+    "educationType": "Basic online Training.",
+    "years": "June 2022",
+    "imageLink": "/img/exias.jpg",
+    "alt": "{No Logo}",
+    "certificate": "certificate/exias.pdf",
+    "id": 5
+  },
+  {
+    "AcademyName": "bioMérieux",
+    "educationType": "FilmArray Torch.",
+    "years": "April 2022",
+    "imageLink": "/img/bioMerieux.jpg",
+    "alt": "{No Logo}",
+    "certificate": "certificate/FilmArray.pdf",
+    "id": 3
+  },
+  {
+    "AcademyName": "QIAGEN",
+    "educationType": "Roto-Gene Familly (Hardware).",
+    "years": "May 2022",
+    "imageLink": "/img/qiagen.jpg",
+    "alt": "{No Logo}",
+    "certificate": "",
+    "id": 4
+  },
+  {
+    "AcademyName": "bioMérieux",
+    "educationType": "easyMAG Preventive Maintenance.",
+    "years": "June 2022",
+    "imageLink": "/img/bioMerieux.jpg",
+    "alt": "{No Logo}",
+    "certificate": "",
+    "id": 3
+  },
+  {
+    "AcademyName": "QIAGEN",
+    "educationType": "QIAcube systems.",
+    "years": "June 2022",
+    "imageLink": "/img/qiagen.jpg",
+    "alt": "{No Logo}",
+    "certificate": "certificate/QIAcubeSystem.jpg",
+    "id": 2
+  },
+  {
+    "AcademyName": "Paata Gugushvili University",
+    "educationType": "Software and System support.",
+    "years": "March 2011",
+    "imageLink": "/img/no-logo.png",
+    "alt": "{No Logo}",
+    "certificate": "certificate/gugushvili.jpg",
+    "id": 1
+  }
+]
