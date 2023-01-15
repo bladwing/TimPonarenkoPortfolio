@@ -1,32 +1,40 @@
 .educationTitle {
-    text-align: center;
-    text-decoration: underline;
+  text-align: center;
+  text-decoration: underline;
 
-  }
-  .eduTemplate {
-    margin: 0 auto;
-    width: 80%;
-    text-align: center;
-  }
+}
+
+.eduTemplate {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
   .eduCard {
-    margin-bottom: 20px;
-    padding-bottom: 3%;
-  }
-  .eduLogo {
+
+    width: 30%;
+    padding: 10px;
+
+    .eduLogo {
       width: 50px;
+    }
+
+    .certLink {
+      text-decoration: none;
+      color: black;
+
+    }
   }
-  .certLink {
-    text-decoration: none;
-    color: black;
-    
-  }
+
   .certLink:hover {
     color: grey;
   }
+
   .years {
     font-weight: 600;
     margin: 10px 0 10px 0;
   }
+
   .certificateButton {
     padding: 0.4em 1.0em;
     border: none;
@@ -40,9 +48,9 @@
     transition: .3s;
     z-index: 1;
     color: #004687;
-   }
-   
-   .certificateButton::before {
+  }
+
+  .certificateButton::before {
     content: '';
     width: 0;
     height: 300%;
@@ -54,14 +62,15 @@
     transition: .5s ease;
     display: block;
     z-index: -1;
-   }
-   
-   .certificateButton:hover::before {
+  }
+
+  .certificateButton:hover::before {
     width: 105%;
-   }
-   
-   .certificateButton:hover {
+  }
+
+  .certificateButton:hover {
     color: #111;
     cursor: pointer;
     color: #fff;
-   }
+  }
+}
