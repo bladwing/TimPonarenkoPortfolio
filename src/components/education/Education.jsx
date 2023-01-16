@@ -15,7 +15,7 @@ export default function Education() {
         <img src={EduLogo} alt="eduLogo" className="ProfilePhoto" />
         <h1 className="pageTitle">{t("menuAndTitle.Education")}</h1>
       </div>
-      <h2 className="pageTitle" style={{margin: "0 auto 5%", textAlign: "center" }}>Programming Education</h2>
+      <h2 className="pageTitle" style={{margin: "0 auto 5%", textAlign: "center" }}>{t("Edu.title")}</h2>
       <div className="eduTemplate">
         {educationData.map((edu, key) => {
           return (

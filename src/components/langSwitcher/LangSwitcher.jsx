@@ -9,6 +9,7 @@ export default function LangSwitcher() {
   const languages = [
     { name: "Eng", code: "en" },
     { name: "Geo", code: "ge" },
+    { name: "Rus", code: "ru" },
   ];
 
   const currentLocale = Cookies.get("i18next") || "en";
