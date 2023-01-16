@@ -17,6 +17,7 @@
     "react-hooks-fetch": "^0.16.1",
     "react-i18next": "^11.18.3",
     "react-icons": "^4.4.0",
+    "react-iframe": "^1.8.5",
     "react-router": "^6.3.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
