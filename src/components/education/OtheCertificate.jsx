@@ -7,7 +7,7 @@ export default function OtheCertificate() {
   return (
     <div>
       <h2 className="pageTitle" style={{margin: "2% auto 5%", textAlign: "center" }}>
-        Other Education && Training
+        {t("Edu.otherTitle")}
       </h2>
       <div className="eduTemplate">
         {OtherEducation.map((edu, key) => {
