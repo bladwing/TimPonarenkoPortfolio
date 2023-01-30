@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import "./project.scss";
 import ProjectBase from "../../utils/projects.json";
 import ProjectImg from "../../assets/Project.png";
-import TikTokPopUp from "./TikTokPopUp"
+import TikTokPopUp from "../tiktokpopup/TikTokPopUp"
 
 
 export default function Projects() {
