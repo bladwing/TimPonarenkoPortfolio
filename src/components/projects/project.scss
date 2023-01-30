@@ -16,7 +16,7 @@
   color: black;
 }
 .ProjectCard {
-  margin: 5% auto;
+  margin: 3% auto;
   padding: 1%;
   border-radius: 10px;
   font-family: "RobotoMono-Regular";
@@ -24,15 +24,16 @@
   border-radius: 10px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   transition: 1500ms;
-}
 
+}  
 .ProjectCard:hover {
   transition: 400ms;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
+
 .projectImg {
-  width: 200px;
+  width: 230px;
 }
 .projectTitle {
   font-weight: 700;
@@ -130,6 +131,7 @@ $speed: 0.9s;
 .techIconContainer {
     display: flex;
     justify-content: center;
+    text-align: center;
   img{ 
    margin: 10px;
   }
