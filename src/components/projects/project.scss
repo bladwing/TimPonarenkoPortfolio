@@ -126,3 +126,12 @@ $speed: 0.9s;
     transform: translateY(0) rotateX(0);
   }
 }
+
+.techIconContainer {
+    display: flex;
+    justify-content: center;
+  img{ 
+   margin: 10px;
+  }
+}
+

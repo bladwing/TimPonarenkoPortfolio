@@ -38,7 +38,11 @@ export default function Projects() {
               
             </div>
             <div className="ProjcetCreateDate">{projects.CreateDate}</div>
-        
+            <div className="techIconContainer">
+              {projects.technology === "node" ? <img src="./img/node-js.png" alt="" style={{width: "20px"}} className="ProjectTechIcon"/> : ""}
+              {projects.technology2 === "react" ? <img src="./img/react.png" alt="" style={{width: "20px"}} className="ProjectTechIcon"/> : ""}
+              {projects.technology3 === "sql" ? <img src="./img/mysql.png" alt="" style={{width: "20px"}} className="ProjectTechIcon"/> : ""}
+            </div>
             <hr />
             <div className="projectButton">
               <a href={projects.github} target="_blank" rel="noreferrer">
