@@ -1,5 +1,21 @@
 [
   {
+    "ProjectName": "CV - Generator",
+    "ProjectRequirerName": "Redberry",
+    "github": "https://github.com/bladwing/cv-generator-v2.0",
+    "": "In progress",
+    "imageLink": "img/cvGenerator.png",
+    "alt": "{No Logo}",
+    "CreateDate": "Feb 23, 2023",
+    "technology": "",
+    "technology2": "react",
+    "technology3": "",
+    "technology4": "",
+    "technology5": "",
+    "LiveDemo": "",
+    "id": 12
+  },
+  {
     "ProjectName": "Node M-E-R-N",
     "ProjectRequirerName": "",
     "github": "https://github.com/bladwing/mern",
@@ -12,22 +28,6 @@
     "technology3": "",
     "technology4": "express",
     "technology5": "mongo",
-    "LiveDemo": "",
-    "id": 12
-  },
-  {
-    "ProjectName": "To-Do FullStack",
-    "ProjectRequirerName": "",
-    "github": "https://github.com/bladwing/todoapp",
-    "": "In progress",
-    "imageLink": "img/todoapp.jpg",
-    "alt": "{No Logo}",
-    "CreateDate": "Dec 3, 2022",
-    "technology": "node",
-    "technology2": "react",
-    "technology3": "sql",
-    "technology4": "express",
-    "technology5": "",
     "LiveDemo": "",
     "id": 12
   },
