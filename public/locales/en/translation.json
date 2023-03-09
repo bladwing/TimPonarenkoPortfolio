@@ -21,5 +21,9 @@
   "Edu": {
     "title": "Programming Education",
     "otherTitle": "Other Education && Trainings"
+  },
+  "Exp": {
+    "title": "Programming Experience",
+    "otherTitle": "Other Experience"
   }
 }

@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 
 
 import "./exp.scss";
+import OtherExperience from "./OtherExperience";
 
 export default function Experience() {
   const { t } = useTranslation();
@@ -41,6 +42,7 @@ export default function Experience() {
           );
         })}
       </div>
+      <OtherExperience/>
     </div>
   );
 }
