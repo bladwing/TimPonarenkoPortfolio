@@ -1,5 +1,21 @@
 [
   {
+    "ProjectName": "IT - Shop",
+    "ProjectRequirerName": "",
+    "github": "https://github.com/bladwing/shop",
+    "": "In progress",
+    "imageLink": "img/itshop.png",
+    "alt": "{No Logo}",
+    "CreateDate": "March 11, 2023",
+    "technology": "",
+    "technology2": "react",
+    "technology3": "",
+    "technology4": "",
+    "technology5": "",
+    "LiveDemo": "https://it-shop-ponarenko.netlify.app/",
+    "id": 13
+  },
+  {
     "ProjectName": "CV - Generator",
     "ProjectRequirerName": "Redberry",
     "github": "https://github.com/bladwing/cv-generator-v2.0",
@@ -16,19 +32,19 @@
     "id": 12
   },
   {
-    "ProjectName": "Node M-E-R-N",
+    "ProjectName": "Node M-E-N",
     "ProjectRequirerName": "",
-    "github": "https://github.com/bladwing/mern",
+    "github": "https://github.com/bladwing/men",
     "": "In progress",
     "imageLink": "img/nodemern.png",
     "alt": "{No Logo}",
     "CreateDate": "Jan 29, 2022",
     "technology": "node",
-    "technology2": "react",
+    "technology2": "",
     "technology3": "",
     "technology4": "express",
     "technology5": "mongo",
-    "LiveDemo": "",
+    "LiveDemo": "none",
     "id": 12
   },
   {

@@ -91,7 +91,7 @@ export default function Projects() {
                 GitHub
               </a>
               {projects.LiveDemo !== "" ? (
-                <a href={projects.LiveDemo} target="_blank" rel="noreferrer">
+                <a href={projects.LiveDemo} target="_blank" rel="noreferrer" style={{display: projects.LiveDemo === "none" ? "none" : "block"}}>
                   Live Demo
                 </a>
               ) : (
@@ -100,9 +100,10 @@ export default function Projects() {
                   <img
                     src="./img/progress.gif"
                     alt="progress"
-                    style={{ width: "20px", height: "20px" }}
+                    style={{ width: "20px", height: "20px"}}
                   />
                 </div>
+                
               )}
             </div>
           </div>
